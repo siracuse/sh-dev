@@ -8,7 +8,7 @@
 }
 
 body {
-    font-family: arial;
+    font-family: 'Montserrat', sans-serif;
 }
 
 ul {
@@ -19,8 +19,82 @@ ul {
 
 a {
     text-decoration: none;
+    color: #111;
+    font-weight: 700;
+    letter-spacing: 2px;
 }
 
+
+/* NAVBAR */
+nav {
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+nav ul {
+    display: flex;
+    justify-content: right;
+}
+nav li {
+    margin: 0px 15px;
+}
+
+
+/* HOMEPAGE */
+.homepage {
+    padding: 0px 15px;
+}
+.homepage h1 {
+    letter-spacing: 2px
+}
+.homepage span {
+    font-weight: normal;
+}
+.homepage p {
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+/* PROJECTS */
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.projects a {
+    margin: 5px;
+    display: flex;
+}
+
+
+/* FOOTER */
+footer {
+    background-color: #fafafa;
+    margin-top: 150px;
+    padding: 30px 0;
+}
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-col {
+    width: 280px;
+}
+.footer-col:first-child {
+    margin-bottom: 20px;
+}
+footer .title {
+    color: #969696;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+footer .social-media {
+    display: flex;
+}
+footer img {
+    width: 30px;
+    margin-right: 10px;
+}
 
 
 @media all and (min-width: 600px) {
@@ -28,13 +102,39 @@ a {
 }
 
 @media all and (min-width: 800px) {
-
+    nav {
+        margin-right: 7%;
+    }
+    .homepage h1 {
+        font-size: 38px;
+    }
+    .homepage p {
+        font-size: 18px;
+    }
+    .footer-content {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 15px;
+    }
 }
 
 @media all and (min-width: 1000px) {
-
+    /* .homepage, .footer-content {
+        width: 768px;
+    } */
+    .homepage p {
+        width: 800px;
+    }
+    .projects {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
 
 @media all and (min-width: 1200px) {
-
+    .homepage, .projects, .footer-content {
+        width: 1150px;
+        margin: 0 auto
+    }
 }
