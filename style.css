@@ -1,0 +1,40 @@
+/* reset css */
+/* https://necolas.github.io/normalize.css/8.0.1/normalize.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: arial;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+@media all and (min-width: 600px) {
+
+}
+
+@media all and (min-width: 800px) {
+
+}
+
+@media all and (min-width: 1000px) {
+
+}
+
+@media all and (min-width: 1200px) {
+
+}
