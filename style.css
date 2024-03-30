@@ -99,6 +99,34 @@ nav li {
     margin-top: 20px;
 }
 
+
+
+/* ABOUT ME */
+.aboutme {
+    padding: 0 15px;
+}
+.aboutme h2 {
+    margin-bottom: 20px;
+}
+.aboutme-description p{
+    margin-bottom: 40px;
+}
+.aboutme-description-img {
+    text-align: center;
+}
+.aboutme-description-img img {
+    width: 300px;
+}
+.aboutme-details {
+    margin-top: 100px;
+}
+.aboutme-details div {
+    margin-bottom: 80px;
+}
+.details-location {
+
+}
+
 /* FOOTER */
 footer {
     background-color: #fafafa;
@@ -148,6 +176,13 @@ footer img {
         flex-direction: row;
         justify-content: space-between;
     }
+    .aboutme-description, .aboutme-details {
+        display: flex;
+        justify-content: space-between;
+    }
+    .aboutme-description-img img {
+        margin-left: 30px;
+    }
     .footer-content {
         flex-direction: row;
         justify-content: space-between;
@@ -167,7 +202,8 @@ footer img {
 }
 
 @media all and (min-width: 1200px) {
-    .homepage, .projects, .footer-content, .project {
+    .homepage, .projects, .footer-content, .project,
+    .aboutme {
         width: 1150px;
         margin: 0 auto
     }
@@ -182,5 +218,9 @@ footer img {
 
     .project-description {
         margin-top: 160px;
+    }
+
+    .aboutme-details div {
+        width: 575px;
     }
 }
