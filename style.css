@@ -43,9 +43,9 @@ nav li {
 .homepage {
     padding: 0px 15px;
 }
-.homepage h1 {
+/* .homepage h1 {
     letter-spacing: 2px
-}
+} */
 .homepage span {
     font-weight: normal;
 }
@@ -248,6 +248,6 @@ footer img {
     }
 
     .aboutme-details div {
-        width: 575px;
+        width: 500px;
     }
 }
