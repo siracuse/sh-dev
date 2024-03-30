@@ -60,9 +60,36 @@ nav li {
     flex-direction: column;
     align-items: center;
 }
-.projects a {
+.projects-unit {
     margin: 5px;
-    display: flex;
+    display: flex; /* pour que la balise a fit avec l'img */
+    overflow: hidden;
+    background-color: #111;
+    transition: all .3s;
+}
+.projects img {
+    transition: all .3s;
+    opacity: 1;
+}
+.projects-unit:hover img {
+    transform: scale(1.15);
+    opacity: 0.5;
+}
+.projects-unit {
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s;
+}
+.projects-unit:hover .overlay {
+    opacity: 1;
+    transition: all 0.3s;
+}
+.overlay {
+    position: absolute;
+    top: 85%;
+    left: 10%;
+    opacity: 0;
+    color: white;
 }
 
 .project {
@@ -122,6 +149,9 @@ nav li {
 }
 .aboutme-details div {
     margin-bottom: 80px;
+}
+.details-location {
+    margin-bottom: 20px;
 }
 
 /* FOOTER */
