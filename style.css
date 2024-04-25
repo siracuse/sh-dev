@@ -67,6 +67,9 @@ nav li {
     background-color: #111;
     transition: all .3s;
 }
+.projects-unit a {
+    display: flex;
+}
 .projects img {
     transition: all .3s;
     opacity: 1;
@@ -238,6 +241,9 @@ footer img {
         display: flex;
         justify-content: space-between;
         margin-bottom: 160px;
+    }
+    .project-description-screenshot {
+        flex-direction: column;
     }
     .project-description-content {
         max-width: 700px;
