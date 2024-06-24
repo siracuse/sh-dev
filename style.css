@@ -24,18 +24,47 @@ a {
     letter-spacing: 2px;
 }
 
+.mg-y-20 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.mg-bottom-20 {
+    margin-bottom: 20px;
+}
+
+.list-style-type-disc {
+    list-style-type: disc;
+}
+
+.list-style-type-disc li {
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.color-grey {
+    color: #969696;
+    font-size: 14px;
+}
 
 /* NAVBAR */
 nav {
     margin-top: 30px;
     margin-bottom: 100px;
 }
+
 nav ul {
     display: flex;
     justify-content: right;
 }
+
 nav li {
     margin: 0px 15px;
+    transition: all 0.3s;
+}
+
+nav li:hover {
+    /*zoom: 1.1;*/
+    transform: scale(1.1);
 }
 
 
@@ -43,12 +72,14 @@ nav li {
 .homepage {
     padding: 0px 15px;
 }
+
 /* .homepage h1 {
     letter-spacing: 2px
 } */
 .homepage span {
     font-weight: normal;
 }
+
 .homepage p {
     margin-top: 20px;
     margin-bottom: 70px;
@@ -60,6 +91,7 @@ nav li {
     flex-direction: column;
     align-items: center;
 }
+
 .projects-unit {
     margin: 5px;
     display: flex; /* pour que la balise a fit avec l'img */
@@ -67,26 +99,32 @@ nav li {
     background-color: #111;
     transition: all .3s;
 }
+
 .projects-unit a {
     display: flex;
 }
+
 .projects img {
     transition: all .3s;
     opacity: 1;
 }
+
 .projects-unit:hover img {
     transform: scale(1.15);
     opacity: 0.5;
 }
+
 .projects-unit {
     position: relative;
     overflow: hidden;
     transition: all 0.3s;
 }
+
 .projects-unit:hover .overlay {
     opacity: 1;
     transition: all 0.3s;
 }
+
 .overlay {
     position: absolute;
     top: 85%;
@@ -98,95 +136,136 @@ nav li {
 .project {
     padding: 0 15px;
 }
+
 .project-details {
     display: flex;
     flex-direction: column;
     margin: 20px 0;
     color: #969696;
 }
+
 .project-details div {
     margin-bottom: 15px;
 }
+
 .project-details-title {
     text-transform: uppercase;
+    margin-bottom: 8px;
 }
+
 .project-description {
     display: flex;
     flex-direction: column;
     margin-top: 60px;
 }
+
 .project-description div {
     margin-bottom: 60px;
 }
+
 .project-description-title {
     font-size: 24px;
     margin-bottom: 10px;
 }
+
 .project img {
     width: 100%;
 }
+
 .project h2 {
     margin-top: 20px;
 }
-
 
 
 /* ABOUT ME */
 .aboutme {
     padding: 0 15px;
 }
+
 .aboutme h2 {
     margin-bottom: 20px;
 }
-.aboutme-description p{
+
+.aboutme-description p {
     margin-bottom: 40px;
 }
+
 .aboutme-description-img {
     text-align: center;
 }
+
 .aboutme-description-img img {
     width: 300px;
 }
+
 .aboutme-details {
     margin-top: 100px;
 }
+
 .aboutme-details div {
     margin-bottom: 80px;
 }
+
 .details-location {
     margin-bottom: 20px;
 }
+
+.aboutme-cv {
+    display: flex;
+    justify-content: center;
+}
+
+.aboutme-cv a {
+    border: 1px solid #111;
+    padding: 18px 28px;
+    transition: all 0.3s;
+}
+.aboutme-cv a:hover {
+    transform: scale(1.1);
+}
+
+
 
 /* FOOTER */
 footer {
     background-color: #fafafa;
     margin-top: 150px;
     padding: 30px 0;
+    text-align: center;
 }
+
 .footer-content {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .footer-col {
     width: 280px;
 }
+
 .footer-col:first-child {
     margin-bottom: 20px;
 }
+
 footer .title {
     color: #969696;
     text-transform: uppercase;
     margin-bottom: 5px;
 }
+
 footer .social-media {
     display: flex;
 }
+
 footer img {
     width: 30px;
     margin-right: 10px;
 }
 
+.footer-col a:hover{
+    color: #969696;
+}
 
 @media all and (min-width: 600px) {
 
@@ -196,34 +275,41 @@ footer img {
     nav {
         margin-right: 7%;
     }
+
     .homepage h1 {
         font-size: 38px;
     }
+
     .homepage p {
         font-size: 18px;
     }
+
     .project-details {
         flex-direction: row;
         justify-content: space-between;
     }
+
     .aboutme-description, .aboutme-details {
         display: flex;
         justify-content: space-between;
     }
+
     .aboutme-description-img img {
         margin-left: 30px;
     }
-    .footer-content {
-        flex-direction: row;
-        justify-content: space-between;
-        padding: 0 15px;
-    }
+
+    /*.footer-content {*/
+    /*    flex-direction: row;*/
+    /*    justify-content: space-between;*/
+    /*    padding: 0 15px;*/
+    /*}*/
 }
 
 @media all and (min-width: 1000px) {
     .homepage p {
         width: 800px;
     }
+
     .projects {
         flex-direction: row;
         flex-wrap: wrap;
@@ -237,14 +323,22 @@ footer img {
         width: 1150px;
         margin: 0 auto
     }
+
+    .footer-content {
+        margin: 20px auto;
+    }
+
     .project-description div {
         display: flex;
         justify-content: space-between;
         margin-bottom: 160px;
     }
-    .project-description-screenshot {
+
+    .flex-direction-column {
         flex-direction: column;
+        margin-bottom: 0 !important;
     }
+
     .project-description-content {
         max-width: 700px;
     }

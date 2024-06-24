@@ -14,13 +14,9 @@
 <body>
 
 
-<nav>
-    <ul>
-        <li><a href="index.html">Projets</a></li>
-        <li><a href="about.html">À propos</a></li>
-        <li><a href="#">In</a></li>
-    </ul>
-</nav>
+<?php
+include('navbar.php');
+?>
 
 
 <section class="project">
@@ -28,12 +24,16 @@
     <h2>La Boule Noire</h2>
     <div class="project-details">
         <div>
-            <p class="project-details-title">Role</p>
-            <p>Intégration et Développement du back-end</p>
+            <p class="project-details-title">Rôle</p>
+            <p>Intégrateur et Back-end</p>
         </div>
         <div>
             <p class="project-details-title">TEAM</p>
-            <p>Maquette réalisée par Armand Milan</p>
+            <p>Maquette par Armand Milan</p>
+        </div>
+        <div>
+            <p class="project-details-title">Produit</p>
+            <p>Site web <br>Symfony 3</p>
         </div>
         <div>
             <p class="project-details-title">URL</p>
@@ -58,24 +58,23 @@
         <div>
             <p class="project-description-title">Intégration</p>
             <p class="project-description-content">
-                Sur ce projet, je me suis occupé de l'intégration à partir d'une maquette photoshop qui a été réalisé
-                par Armand Milan.
-                J'ai réalisé cette tâche en HTML, CSS et Javascript. Je n'ai pas utilisé de framework ou de librairie
-                CSS.
+
+                J'ai pris en charge l'intégration d'une maquette Photoshop conçue par Armand Milan, en utilisant HTML,
+                CSS, et JavaScript. Aucun framework ni bibliothèque CSS n'a été utilisé pour cette tâche.
             </p>
         </div>
         <div>
             <p class="project-description-title">Back-end</p>
             <p class="project-description-content">
-                Je me suis également occupé de la partie back-end de ce site, réalisé avec symfony.
-                L'objectif était de donner la possibilité au client (propriétaire du site) de pouvoir gérer les
-                spectacles et de modifier le statut, selon s'il est reporté, complet, ou terminé.
+                J'ai également géré le développement du back-end du site, réalisé avec Symfony. L'objectif était de
+                permettre au client, de gérer les spectacles et de modifier leur statut en
+                fonction de s'ils sont reportés, complets ou terminés.
             </p>
         </div>
         <div>
-            <p class="project-description-title">Screenshot</p>
-            <div class="project-description-screenshot">
-                <img src="img/projects/lbn10.jpg" alt="" class="project-description-content">
+            <p class="project-description-title">Screenshots</p>
+            <div class="flex-direction-column">
+                <img src="img/projects/lbn10.jpg" alt="" class="project-description-content mg-bottom-20">
                 <img src="img/projects/lbn11.jpg" alt="" class="project-description-content">
             </div>
 
@@ -84,21 +83,9 @@
 </section>
 
 
-<footer>
-    <div class="footer-content">
-        <div class="footer-col">
-            <p class="title">me contacter</p>
-            <p>siracuse.harichandra@gmail.com</p>
-        </div>
-        <div class="footer-col">
-            <p class="title">© 2024 Harichandra SIRACUSE</p>
-            <div class="social-media">
-                <p><a href=""><img src="img/logo.png" alt=""></a></p>
-                <p><a href=""><img src="img/logo.png" alt=""></a></p>
-            </div>
-        </div>
-    </div>
-</footer>
+<?php
+include ('footer.php');
+?>
 
 </body>
 </html>
