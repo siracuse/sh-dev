@@ -28,7 +28,7 @@ include ('navbar.php');
 
 <section class="projects">
     <div class="projects-unit">
-        <a href="shevent.php">
+        <a href="shevent">
             <img src="img/shevent.jpg" alt="">
         </a>
         <div class="overlay">
@@ -37,7 +37,7 @@ include ('navbar.php');
     </div>
 
     <div class="projects-unit">
-        <a href="laboulenoire.php">
+        <a href="laboulenoire">
             <img src="img/laboulenoire.jpg" alt="">
         </a>
         <div class="overlay">
@@ -46,7 +46,7 @@ include ('navbar.php');
     </div>
 
     <div class="projects-unit">
-        <a href="starkmotors.php">
+        <a href="starkmotors">
             <img src="img/starkmotors.jpg" alt="">
         </a>
         <div class="overlay">
