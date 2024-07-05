@@ -22,7 +22,7 @@ include('navbar.php');
 <section class="aboutme">
     <div class="aboutme-description">
         <div>
-            <h2> À propos</h2>
+            <h2> À propos</h2><br>
             <p>Bonjour ! Je suis Hari, développeur web spécialisé sur Symfony, à Lyon, France.</p>
 
             <p>Mon parcours académique m'a conduit à obtenir une licence professionnelle en développement web, complétée
@@ -82,7 +82,7 @@ include('navbar.php');
     </div>
 
     <div class="aboutme-cv">
-        <a href="cv.pdf" target="_blank">MON CV</a>
+        <a href="SIRACUSE-CV.pdf" target="_blank">MON CV</a>
     </div>
 
 </section>

@@ -21,8 +21,8 @@ include ('navbar.php');
 
 <section class="homepage">
     <h1>Harichandra SIRACUSE - Développeur Symfony</h1>
-    <p>Des projets Symfony qui parlent d'eux-mêmes - Avec plus de deux ans d'expérience et une multitude de projets à mon
-        actif, explorez mon portfolio afin de découvrir mes divers réalisations.</p>
+    <p>Des projets Symfony qui parlent d'eux-mêmes - Avec plus de quatre ans d'expérience et une multitude de projets à mon
+        actif, explorez mon portfolio afin de découvrir mes diverses réalisations.</p>
 </section>
 
 
