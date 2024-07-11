@@ -1,21 +1,15 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Harichandra SIRACUSE - Portfolio Développeur web back-end</title>
-    <meta name="description"
-          content="Développeur back-end PHP Symfony à Lyon. Retrouver sur mon site web mon portfolio, mes expériences et mon parcours scolaire de développeur back-end php"/>
-    <link rel="stylesheet" href="style.css">
-    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-    <link href="img/SH.ico" rel="shortcut icon" type="image/x-icon"/>
+    <?php
+    include ('components/header.php');
+    ?>
 </head>
 <body>
 
 
 <?php
-include ('navbar.php');
+include ('components/navbar.php');
 ?>
 
 
@@ -27,27 +21,27 @@ include ('navbar.php');
 
 
 <section class="projects">
-    <div class="projects-unit">
+    <div class="projects-unit" data-aos="zoom-in">
         <a href="shevent">
-            <img src="img/shevent.jpg" alt="">
+            <img src="assets/img/shevent.jpg" alt="">
         </a>
         <div class="overlay">
             <p>SH Event</p>
         </div>
     </div>
 
-    <div class="projects-unit">
+    <div class="projects-unit" data-aos="zoom-in">
         <a href="laboulenoire">
-            <img src="img/laboulenoire.jpg" alt="">
+            <img src="assets/img/laboulenoire.jpg" alt="">
         </a>
         <div class="overlay">
             <p>La Boule Noire</p>
         </div>
     </div>
 
-    <div class="projects-unit">
+    <div class="projects-unit" data-aos="zoom-in">
         <a href="starkmotors">
-            <img src="img/starkmotors.jpg" alt="">
+            <img src="assets/img/starkmotors.jpg" alt="">
         </a>
         <div class="overlay">
             <p>Stark Motors</p>
@@ -56,7 +50,7 @@ include ('navbar.php');
 </section>
 
 <?php
-include ('footer.php');
+include ('components/footer.php');
 ?>
 
 

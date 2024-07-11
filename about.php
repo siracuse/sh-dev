@@ -1,28 +1,20 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Harichandra SIRACUSE - Portfolio Développeur web back-end</title>
-    <meta name="description"
-          content="Développeur back-end PHP Symfony à Lyon. Retrouver sur mon site web mon portfolio, mes expériences et mon parcours scolaire de développeur back-end php"/>
-    <link rel="stylesheet" href="style.css">
-    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-    <link href="img/SH.ico" rel="shortcut icon" type="image/x-icon"/>
+    <?php
+    include('components/header.php');
+    ?>
 </head>
 <body>
 
-
 <?php
-include('navbar.php');
+include('components/navbar.php');
 ?>
-
 
 <section class="aboutme">
     <div class="aboutme-description">
-        <div>
-            <h2> À propos</h2><br>
+        <div data-aos="fade-up">
+            <h2> À propos</h2>
             <p>Bonjour ! Je suis Hari, développeur web spécialisé sur Symfony, à Lyon, France.</p>
 
             <p>Mon parcours académique m'a conduit à obtenir une licence professionnelle en développement web, complétée
@@ -39,12 +31,12 @@ include('navbar.php');
                 que j'ai découvert ma technologie favorite : Symfony.</p>
 
         </div>
-        <div class="aboutme-description-img">
-            <img src="img/hari.jpg" alt="">
+        <div class="aboutme-description-img" data-aos="fade-up">
+            <img src="assets/img/hari.jpg" alt="">
         </div>
     </div>
     <div class="aboutme-details">
-        <div>
+        <div data-aos="fade-up">
             <h2>Expérience</h2>
 
             <p><b>Alternance</b> Ingénieur ops build and automatisation junior</p>
@@ -68,7 +60,7 @@ include('navbar.php');
             <p><b>Stage</b> de développement web Joomla</p>
             <p class="details-location">2017 - 5 semaines - Webdesign-oi</p>
         </div>
-        <div>
+        <div data-aos="fade-up">
             <h2>Formation</h2>
             <p><b>Master</b> Expert réseau, Infrastructure et Sécurité</p>
             <p class="details-location">2021 - 2023 - ORT, Lyon 69008</p>
@@ -81,17 +73,15 @@ include('navbar.php');
         </div>
     </div>
 
-    <div class="aboutme-cv">
-        <a href="SIRACUSE-CV.pdf" target="_blank">MON CV</a>
+    <div class="aboutme-cv" data-aos="fade-up">
+        <a href="assets/SIRACUSE-CV.pdf" target="_blank">MON CV</a>
     </div>
 
 </section>
 
 
-
-
 <?php
-include ('footer.php');
+include('components/footer.php');
 ?>
 
 </body>

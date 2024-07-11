@@ -38,8 +38,9 @@ a {
     margin-bottom: 20px;
     margin-left: 20px;
 }
+
 .color-grey {
-    color: #969696;
+    color: #868686;
     font-size: 14px;
 }
 
@@ -136,7 +137,7 @@ nav li:hover {
     display: flex;
     flex-direction: column;
     margin: 20px 0;
-    color: #969696;
+    color: #868686;
 }
 
 .project-details div {
@@ -146,6 +147,7 @@ nav li:hover {
 .project-details-title {
     text-transform: uppercase;
     margin-bottom: 8px;
+    font-weight: 700;
 }
 
 .project-description {
@@ -161,6 +163,7 @@ nav li:hover {
 .project-description-title {
     font-size: 24px;
     margin-bottom: 10px;
+    font-weight: 700;
 }
 
 .project img {
@@ -168,7 +171,33 @@ nav li:hover {
 }
 
 .project h2 {
-    margin-top: 20px;
+    margin-top: 40px;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 0.9em;
+}
+
+.project-next {
+    display: flex;
+    justify-content: end;
+    text-align: right;
+}
+
+.project-next a {
+    transition: 0.3s all;
+}
+
+.project-next a:hover {
+    transform: scale(1.1);
+}
+
+.project-next-caption {
+    font-size: 0.8em;
+    color: #868686;
+    text-transform: uppercase;
+    margin-bottom: 8px;
 }
 
 
@@ -178,7 +207,7 @@ nav li:hover {
 }
 
 .aboutme h2 {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .aboutme-description p {
@@ -215,10 +244,10 @@ nav li:hover {
     padding: 18px 28px;
     transition: all 0.3s;
 }
+
 .aboutme-cv a:hover {
     transform: scale(1.1);
 }
-
 
 
 /* FOOTER */
@@ -244,7 +273,7 @@ footer {
 }
 
 footer .title {
-    color: #969696;
+    color: #868686;
     text-transform: uppercase;
     margin-bottom: 5px;
 }
@@ -258,8 +287,8 @@ footer img {
     margin-right: 10px;
 }
 
-.footer-col a:hover{
-    color: #969696;
+.footer-col a:hover {
+    color: #868686;
 }
 
 @media all and (min-width: 600px) {
@@ -282,6 +311,10 @@ footer img {
     .project-details {
         flex-direction: row;
         justify-content: space-between;
+    }
+
+    .project h2 {
+        margin-top: 60px;
     }
 
     .aboutme-description, .aboutme-details {
