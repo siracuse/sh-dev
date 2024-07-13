@@ -28,7 +28,8 @@ include('components/navbar.php');
         </div>
         <div>
             <p class="project-details-title">URL</p>
-            <a href="https://github.com/siracuse/sh-event" target="_blank">github</a>
+            <a href="https://sh-event.sh-dev.fr/" target="_blank">sh-event.sh-dev.fr</a>
+            <a href="https://github.com/siracuse/sh-event" target="_blank">github.com</a>
         </div>
     </div>
 

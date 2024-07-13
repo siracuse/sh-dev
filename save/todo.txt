@@ -1,0 +1,3 @@
+- miniature de shevent flou
+- voir les margin "project-description-content" : marche avec div mais pas avec p
+- pouvoir agrandir les images quand on clique dessus
