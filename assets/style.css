@@ -26,8 +26,20 @@ a {
     margin-bottom: 20px;
 }
 
+.pd-y-5 {
+    padding: 5px 0;
+}
+
 .mg-bottom-20 {
     margin-bottom: 20px;
+}
+
+.hover-scale {
+    transition: 0.3s all;
+}
+
+.hover-scale:hover {
+    transform: scale(1.1);
 }
 
 .list-style-type-disc {
