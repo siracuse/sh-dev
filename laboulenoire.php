@@ -15,7 +15,7 @@ include('components/navbar.php');
 
 <section class="project">
     <img class="project-img" src="assets/img/projects/lbn1.jpg" alt="">
-    <h2>La Boule Noire</h2>
+    <h1>La Boule Noire</h1>
     <div class="project-details">
         <div>
             <p class="project-details-title">Rôle</p>
@@ -31,7 +31,7 @@ include('components/navbar.php');
         </div>
         <div>
             <p class="project-details-title">URL</p>
-            <a href="https://laboule-noire.fr/" target="_blank">laboule-noire.fr</a>
+            <a class="project-link" href="https://laboule-noire.fr/" target="_blank">laboule-noire.fr</a>
         </div>
     </div>
 

@@ -15,7 +15,7 @@ include('components/navbar.php');
 
 <section class="project">
     <img class="project-img" src="assets/img/projects/shevent.jpg" alt="">
-    <h2>SH Event</h2>
+    <h1>SH Event</h1>
     <div class="project-details">
         <div>
             <p class="project-details-title">Rôle</p>
@@ -28,8 +28,8 @@ include('components/navbar.php');
         </div>
         <div>
             <p class="project-details-title">URL</p>
-            <p class="pd-y-5 hover-scale"><a href="https://sh-event.sh-dev.fr/" target="_blank">sh-event.sh-dev.fr</a></p>
-            <p class="pd-y-5 hover-scale"><a href="https://github.com/siracuse/sh-event" target="_blank">github.com</a></p>
+            <p class="pd-y-5"><a class="project-link" href="https://sh-event.sh-dev.fr/" target="_blank">sh-event.sh-dev.fr</a></p>
+            <p class="pd-y-5"><a class="project-link" href="https://github.com/siracuse/sh-event" target="_blank">github.com</a></p>
         </div>
     </div>
 

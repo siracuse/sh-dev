@@ -20,7 +20,26 @@ a {
     font-weight: 700;
     letter-spacing: 2px;
 }
-
+.bold {
+    font-weight: bold;
+}
+.key-figure {
+    font-weight: bold;
+    font-size: 1.2em;
+    letter-spacing: 5px;
+}
+.line-height-2 {
+    line-height: 2;
+}
+.letter-spacing-2 {
+    letter-spacing: 2px;
+}
+.text-align-center {
+    text-align: center;
+}
+.container {
+    padding: 0 15px;
+}
 .mg-y-20 {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -34,12 +53,20 @@ a {
     margin-bottom: 20px;
 }
 
-.hover-scale {
-    transition: 0.3s all;
+.mg-bottom-40m-80d {
+    margin-bottom: 40px;
+}
+.mg-bottom-80 {
+    margin-bottom: 80px;
 }
 
-.hover-scale:hover {
-    transform: scale(1.1);
+
+.project-link {
+    color: orange;
+}
+
+.project-link:hover {
+    text-decoration: underline;
 }
 
 .list-style-type-disc {
@@ -68,15 +95,19 @@ nav ul {
 }
 
 nav li {
-    margin: 0px 15px;
+    margin: 0 15px;
     transition: all 0.3s;
+}
+nav li a {
+    transition: all 0.2s;
 }
 
 nav li:hover {
-    /*zoom: 1.1;*/
     transform: scale(1.1);
 }
-
+nav li:hover a {
+    color: orange;
+}
 
 /* HOMEPAGE */
 .homepage {
@@ -174,7 +205,7 @@ nav li:hover {
 
 .project-description-title {
     font-size: 24px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     font-weight: 700;
 }
 
@@ -182,7 +213,7 @@ nav li:hover {
     width: 100%;
 }
 
-.project h2 {
+.project h1 {
     margin-top: 40px;
 }
 
@@ -210,6 +241,11 @@ figcaption {
     color: #868686;
     text-transform: uppercase;
     margin-bottom: 8px;
+}
+
+.flex-direction-column {
+    flex-direction: column;
+    margin-bottom: 0 !important;
 }
 
 
@@ -260,6 +296,55 @@ figcaption {
 .aboutme-cv a:hover {
     transform: scale(1.1);
 }
+/*END ABOUT*/
+
+/*BLOG*/
+.blog-grid {
+    display: flex;
+    flex-direction: column;
+}
+.blog-unit {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    /*flex-wrap: wrap;*/
+    margin-bottom: 60px;
+}
+.blog-unit h2 {
+    transition: 0.3s all;
+}
+.blog-unit:hover h2 {
+    color: orange;
+}
+.blog-unit-title {
+    margin-bottom: 10px;
+    letter-spacing: 0;
+    font-size: 1.3em;
+}
+.blog-unit-date {
+    color: #868686;
+    font-size: 12px;
+}
+.blog-unit-description {
+    letter-spacing: 0;
+    font-weight: normal;
+    margin-top: 10px;
+}
+.blog-unit img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+.blog-sources-link{
+    color: orange;
+    letter-spacing: 0;
+    transition: 0.2s all;
+}
+
+.blog-sources-link:hover{
+    text-decoration: underline;
+}
+/*ENDBLOG*/
 
 
 /* FOOTER */
@@ -302,6 +387,8 @@ footer img {
 .footer-col a:hover {
     color: #868686;
 }
+/*END FOOTER*/
+
 
 @media all and (min-width: 600px) {
 
@@ -325,7 +412,7 @@ footer img {
         justify-content: space-between;
     }
 
-    .project h2 {
+    .project h1 {
         margin-top: 60px;
     }
 
@@ -337,12 +424,6 @@ footer img {
     .aboutme-description-img img {
         margin-left: 30px;
     }
-
-    /*.footer-content {*/
-    /*    flex-direction: row;*/
-    /*    justify-content: space-between;*/
-    /*    padding: 0 15px;*/
-    /*}*/
 }
 
 @media all and (min-width: 1000px) {
@@ -355,13 +436,32 @@ footer img {
         flex-wrap: wrap;
         justify-content: center;
     }
+    .title-blog p{
+        margin-bottom: 150px;
+    }
+    .blog-grid {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .blog-unit {
+        width: 40%;
+        margin-bottom: 90px;
+    }
 }
 
 @media all and (min-width: 1200px) {
+    .mg-bottom-40m-80d {
+        margin-bottom: 80px;
+    }
     .homepage, .projects, .footer-content, .project,
     .aboutme {
-        width: 1150px;
+        width: 1152px;
         margin: 0 auto
+    }
+    .container {
+        width: 1150px;
+        margin: 0 auto;
     }
 
     .footer-content {
@@ -374,13 +474,13 @@ footer img {
         margin-bottom: 160px;
     }
 
-    .flex-direction-column {
-        flex-direction: column;
-        margin-bottom: 0 !important;
+    .project-description-title {
+        padding-right: 3em;
     }
-
     .project-description-content {
         max-width: 700px;
+        font-size: 1.1em;
+        line-height: 1.5;
     }
 
     .project-description {
@@ -390,4 +490,11 @@ footer img {
     .aboutme-details div {
         width: 500px;
     }
+
+    .blog-description-transition {
+        font-size: 1.2em;
+        flex-direction: column;
+        text-align: center;
+    }
+
 }

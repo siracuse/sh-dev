@@ -15,7 +15,7 @@ include('components/navbar.php');
 
 <section class="project">
     <img class="project-img" src="assets/img/projects/starkmotors.jpg" alt="">
-    <h2>Stark Motors</h2>
+    <h1>Stark Motors</h1>
     <div class="project-details">
         <div>
             <p class="project-details-title">Rôle</p>
@@ -31,7 +31,7 @@ include('components/navbar.php');
         </div>
         <div>
             <p class="project-details-title">URL</p>
-            <a href="https://starkmotors.fr/" target="_blank">starkmotors.fr</a>
+            <a class="project-link" href="https://starkmotors.fr/" target="_blank">starkmotors.fr</a>
         </div>
     </div>
 
