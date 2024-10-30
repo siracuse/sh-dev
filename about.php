@@ -36,7 +36,7 @@ include('components/navbar.php');
 
         </div>
         <div class="aboutme-description-img" data-aos="fade-up">
-            <img src="assets/img/hari.jpg" alt="">
+            <img src="assets/img/hari-siracuse.jpg" alt="photo portrait Hari SIRACUSE">
         </div>
     </div>
     <div class="aboutme-details">

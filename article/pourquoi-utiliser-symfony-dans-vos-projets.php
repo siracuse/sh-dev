@@ -24,7 +24,7 @@
 
 <section class="project">
 
-    <img class="project-img" src="../assets/img/blog/symfony-banniere-2.jpg" alt="">
+    <img class="project-img" src="../assets/img/blog/raison-de-choisir-symfony-pour-vos-projets.jpg" alt="Pourquoi choisir Symfony pour votre projet web">
     <h1>Pourquoi choisir Symfony pour votre projet web</h1>
     <div class="project-details">
         <div>
@@ -48,7 +48,7 @@
 
         <div data-aos="fade-up" class="blog-description-transition">
             <p class="letter-spacing-2 line-height-2">
-                Voici plusieurs raisons qui en font un choix incontournable <br> pour les
+                Voici plusieurs raisons qui font de Symfony <br> un choix incontournable  pour les
                 entreprises.
             </p>
         </div>

@@ -24,7 +24,7 @@
 
 <section class="project">
 
-    <img class="project-img" src="../assets/img/blog/symfony-banniere-1.jpg" alt="">
+    <img class="project-img" src="../assets/img/blog/symfony-framework-php.jpg" alt="Symfony : Le framework PHP incontournable en 2024">
     <h1>Symfony : Le framework PHP incontournable en 2024</h1>
     <div class="project-details">
         <div>

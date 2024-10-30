@@ -19,7 +19,7 @@ include('components/navbar.php');
 
 
 <section class="project">
-    <img class="project-img" src="assets/img/projects/lbn1.jpg" alt="">
+    <img class="project-img" src="assets/img/projects/laboulenoire.jpg" alt="La boule noire - projet symfony">
     <h1>La Boule Noire</h1>
     <div class="project-details">
         <div>
@@ -73,12 +73,12 @@ include('components/navbar.php');
             <p class="project-description-title">Screenshots</p>
             <div class="flex-direction-column">
                 <figure class="mg-bottom-20">
-                    <img src="assets/img/projects/lbn10.jpg" alt="" class="project-description-content">
+                    <img src="assets/img/projects/laboulenoire-spectacle.jpg" alt="La boule noire - spectacle" class="project-description-content">
                     <figcaption>Page de présentation d'un spectacle</figcaption>
                 </figure>
 
                 <figure class="mg-bottom-20">
-                    <img src="assets/img/projects/lbn11.jpg" alt="" class="project-description-content">
+                    <img src="assets/img/projects/laboulenoire-infos-pratiques.jpg" alt="La boule noire - Infos pratiques" class="project-description-content">
                     <figcaption>Page "Infos pratiques"</figcaption>
                 </figure>
             </div>

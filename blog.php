@@ -24,7 +24,7 @@ include('components/navbar.php');
 <section class="blog">
     <div class="container blog-grid">
         <a class="blog-unit" href="article/cest-quoi-symfony">
-            <div><img src="assets/img/blog/symfony-minia-1.jpg" alt=""></div>
+            <div><img src="assets/img/blog/cest-quoi-symfony.jpg" alt="article de blog : C'est quoi Symfony ?"></div>
             <div>
                 <h2 class="blog-unit-title">Symfony : C'est quoi Symfony ?</h2>
                 <p class="blog-unit-date">30/10/2024</p>
@@ -34,7 +34,7 @@ include('components/navbar.php');
         </a>
 
         <a class="blog-unit" href="article/pourquoi-utiliser-symfony-dans-vos-projets">
-            <div><img src="assets/img/blog/symfony-minia-2.jpg" alt=""></div>
+            <div><img src="assets/img/blog/pourquoi-utiliser-symfony-dans-vos-projets.jpg" alt="article de blog : Pourquoi choisir Symfony pour votre projet web"></div>
             <div>
                 <h2 class="blog-unit-title">Pourquoi choisir Symfony pour votre projet web ?</h2>
                 <p class="blog-unit-date">30/10/2024</p>

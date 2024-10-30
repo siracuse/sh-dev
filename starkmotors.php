@@ -19,7 +19,7 @@ include('components/navbar.php');
 
 
 <section class="project">
-    <img class="project-img" src="assets/img/projects/starkmotors.jpg" alt="">
+    <img class="project-img" src="assets/img/projects/starkmotors.jpg" alt="stark motors - projet symfony">
     <h1>Stark Motors</h1>
     <div class="project-details">
         <div>
@@ -42,6 +42,7 @@ include('components/navbar.php');
 
 
     <div class="project-description">
+
         <div data-aos="fade-up">
             <p class="project-description-title">Stark Motors</p>
             <p class="project-description-content">
@@ -62,17 +63,17 @@ include('components/navbar.php');
             <p class="project-description-title">Screenshots</p>
             <div class="flex-direction-column">
                 <figure class="mg-bottom-20">
-                    <img src="assets/img/projects/starkmotors-1.jpg" alt="" class="project-description-content">
+                    <img src="assets/img/projects/starkmotors-page-shop-marque.jpg" alt="Stark Motors - page shop marque" class="project-description-content">
                     <figcaption>Page "Shop"</figcaption>
                 </figure>
 
                 <figure class="mg-bottom-20">
-                    <img src="assets/img/projects/starkmotors-2.jpg" alt="" class="project-description-content">
+                    <img src="assets/img/projects/starkmotors-page-shop-voiture.jpg" alt="Stark Motors - page shop voiture" class="project-description-content">
                     <figcaption>Page "Shop"</figcaption>
                 </figure>
             </div>
-
         </div>
+
     </div>
 
     <div class="project-next">

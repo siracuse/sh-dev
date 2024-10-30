@@ -19,7 +19,7 @@ include('components/navbar.php');
 
 
 <section class="project">
-    <img class="project-img" src="assets/img/projects/shevent.jpg" alt="">
+    <img class="project-img" src="assets/img/projects/shevent.jpg" alt="sh event - projet symfony">
     <h1>SH Event</h1>
     <div class="project-details">
         <div>
@@ -95,19 +95,19 @@ include('components/navbar.php');
                     <li>Possibilité de gérer les utilisateurs</li>
                 </ul>
                 <p class="mg-y-20"><b>MCD du projet :</b></p>
-                <img src="assets/img/projects/shevent-mcd.png" alt="" class="project-description-content">
+                <img src="assets/img/projects/shevent-mcd.png" alt="sh event - Modèle Conceptuel des Données" class="project-description-content">
             </div>
         </div>
         <div data-aos="fade-up">
             <p class="project-description-title">Screenshots</p>
             <div class="flex-direction-column">
                 <figure class="mg-bottom-20">
-                    <img src="assets/img/projects/shevent-2.jpg" alt="" class="project-description-content">
+                    <img src="assets/img/projects/shevent-presentation-conference.jpg" alt="sh event - présentation d'une conférence" class="project-description-content">
                     <figcaption>Page de présentation d'une conférence</figcaption>
                 </figure>
 
                 <figure class="mg-bottom-20">
-                    <img src="assets/img/projects/shevent-1.jpg" alt="" class="project-description-content">
+                    <img src="assets/img/projects/shevent-back-office.jpg" alt="sh event - back office - Administration d'un événement " class="project-description-content">
                     <figcaption>Back office - Administration d'un événement</figcaption>
                 </figure>
             </div>
