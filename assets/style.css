@@ -79,7 +79,7 @@ a {
 }
 
 .color-grey {
-    color: #868686;
+    color: #767676;
     font-size: 14px;
 }
 
@@ -180,7 +180,7 @@ nav li:hover a {
     display: flex;
     flex-direction: column;
     margin: 20px 0;
-    color: #868686;
+    color: #767676;
 }
 
 .project-details div {
@@ -238,7 +238,7 @@ figcaption {
 
 .project-next-caption {
     font-size: 0.8em;
-    color: #868686;
+    color: #767676;
     text-transform: uppercase;
     margin-bottom: 8px;
 }
@@ -323,7 +323,7 @@ figcaption {
     font-size: 1.3em;
 }
 .blog-unit-date {
-    color: #868686;
+    color: #767676;
     font-size: 12px;
 }
 .blog-unit-description {
@@ -370,7 +370,7 @@ footer {
 }
 
 footer .title {
-    color: #868686;
+    color: #767676;
     text-transform: uppercase;
     margin-bottom: 5px;
 }
@@ -385,7 +385,7 @@ footer img {
 }
 
 .footer-col a:hover {
-    color: #868686;
+    color: #767676;
 }
 /*END FOOTER*/
 
