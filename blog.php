@@ -4,6 +4,11 @@
     <?php
     include('components/header.php');
     ?>
+
+    <title>Blog - Hari Siracuse | Développeur PHP Symfony</title>
+    <meta name="description"
+          content="Bienvenue sur mon blog ! Je suis Hari Siracuse, développeur web freelance spécialisé en Symfony. Je partage ici mes conseils, tutoriels et réflexions sur le développement web."/>
+
 </head>
 <body>
 

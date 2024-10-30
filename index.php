@@ -2,8 +2,12 @@
 <html lang="fr">
 <head>
     <?php
-    include ('components/header.php');
+    include('components/header.php');
     ?>
+
+    <title>Hari Siracuse - Développeur PHP Symfony Freelance</title>
+    <meta name="description" content="Portfolio en ligne de Hari Siracuse, développeur web spécialisé en Symfony. Découvrez mon parcours, mes compétences et mes projets en tant que freelance." />
+
 </head>
 <body>
 

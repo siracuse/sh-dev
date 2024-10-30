@@ -4,6 +4,11 @@
     <?php
     include('components/header.php');
     ?>
+
+    <title>Stark Motors - Hari Siracuse | Développeur PHP Symfony</title>
+    <meta name="description"
+          content="Découvrez Stark Motors, un projet développé avec Symfony. J'y ai appliqué mon expertise en développement web freelance pour créer une solution performante et sur mesure."/>
+
 </head>
 <body>
 
