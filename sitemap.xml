@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+<url>
+  <loc>https://sh-dev.fr/</loc>
+  <lastmod>2024-10-30</lastmod>
+</url>
+<url>
+  <loc>https://sh-dev.fr/index</loc>
+  <lastmod>2024-10-30</lastmod>
+</url>
+<url>
+  <loc>https://sh-dev.fr/blog</loc>
+  <lastmod>2024-10-30</lastmod>
+</url>
+<url>
+  <loc>https://sh-dev.fr/about</loc>
+  <lastmod>2024-10-30</lastmod>
+</url>
+<url>
+  <loc>https://sh-dev.fr/shevent</loc>
+  <lastmod>2024-10-30</lastmod>
+</url>
+<url>
+  <loc>https://sh-dev.fr/laboulenoire</loc>
+  <lastmod>2024-10-30</lastmod>
+</url>
+<url>
+  <loc>https://sh-dev.fr/starkmotors</loc>
+  <lastmod>2024-10-30</lastmod>
+</url>
+<url>
+  <loc>https://sh-dev.fr/article/cest-quoi-symfony</loc>
+  <lastmod>2024-10-30</lastmod>
+</url>
+<url>
+  <loc>https://sh-dev.fr/article/pourquoi-utiliser-symfony-dans-vos-projets</loc>
+  <lastmod>2024-10-30</lastmod>
+</url>
+
+</urlset>
