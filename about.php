@@ -4,10 +4,8 @@
     <?php
     include('components/header.php');
     ?>
-
     <title>À propos - Hari SIRACUSE | Développeur PHP Symfony</title>
-    <meta name="description" content="Je suis Hari Siracuse, développeur web freelance spécialisé en Symfony. Découvrez mon parcours et mes formations"/>
-
+    <meta name="description" content="Je suis Hari Siracuse, développeur web freelance spécialisé en Symfony. Découvrez mon parcours et mes formations">
 </head>
 <body>
 

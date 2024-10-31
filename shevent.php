@@ -4,11 +4,9 @@
     <?php
     include('components/header.php');
     ?>
-
     <title>SH Event - Hari Siracuse | Développeur PHP Symfony</title>
     <meta name="description"
-          content="Découvrez SH Event, un projet personnel que j'ai développé en utilisant Symfony. Je partage ici mon expérience et les défis techniques relevés en tant que développeur web freelance."/>
-
+          content="Découvrez SH Event, un projet personnel que j'ai développé en utilisant Symfony. Je partage ici mon expérience et les défis techniques relevés en tant que développeur web freelance.">
 </head>
 <body>
 

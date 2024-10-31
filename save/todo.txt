@@ -1,3 +1,8 @@
 - miniature de shevent flou
 - voir les margin "project-description-content" : marche avec div mais pas avec p
 - pouvoir agrandir les images quand on clique dessus
+
+
+- Revoir les H1 et H2
+- Augmenter le nombre de mot dans la page d'accueil
+- Revoir la taille des images des deux articles

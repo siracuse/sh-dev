@@ -4,11 +4,9 @@
     <?php
     include('components/header.php');
     ?>
-
     <title>La Boule Noire - Hari Siracuse | Développeur PHP Symfony</title>
     <meta name="description"
-          content="Présentation de La Boule Noire, un projet que j'ai développé avec Symfony. Découvrez les aspects techniques et les solutions que j'ai mises en place en tant que développeur web freelance."/>
-
+          content="Présentation de La Boule Noire, un projet que j'ai développé avec Symfony. Découvrez les aspects techniques et les solutions que j'ai mises en place en tant que développeur web freelance.">
 </head>
 <body>
 

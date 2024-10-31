@@ -4,17 +4,15 @@
     <?php
     include('../components/header.php');
     ?>
-
     <title>C'est quoi Symfony ? - Hari Siracuse</title>
     <meta name="description"
-          content="Dans cet article, je vous explique ce qu'est Symfony, son histoire et la richesse de sa communauté"/>
-
+          content="Dans cet article, je vous explique ce qu'est Symfony, son histoire et la richesse de sa communauté">
 </head>
 <body>
 
 <nav>
     <ul>
-        <li><a href="/index">Projets</a></li>
+        <li><a href="/">Projets</a></li>
         <li><a href="/blog">Blog</a></li>
         <li><a href="/about">À propos</a></li>
         <li><a href="https://www.linkedin.com/in/harichandra-siracuse/" target="_blank">In</a></li>

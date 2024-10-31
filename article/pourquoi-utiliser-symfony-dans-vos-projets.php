@@ -4,17 +4,15 @@
     <?php
     include('../components/header.php');
     ?>
-
     <title>Pourquoi choisir Symfony pour votre projet web - Hari Siracuse</title>
     <meta name="description"
-          content="Découvrez pourquoi Symfony est un choix judicieux pour vos projets web. Dans cet article, j'explique les avantages de ce framework robuste et flexible."/>
-
+          content="Découvrez pourquoi Symfony est un choix judicieux pour vos projets web. Dans cet article, j'explique les avantages de ce framework robuste et flexible.">
 </head>
 <body>
 
 <nav>
     <ul>
-        <li><a href="/index">Projets</a></li>
+        <li><a href="/">Projets</a></li>
         <li><a href="/blog">Blog</a></li>
         <li><a href="/about">À propos</a></li>
         <li><a href="https://www.linkedin.com/in/harichandra-siracuse/" target="_blank">In</a></li>
