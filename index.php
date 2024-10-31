@@ -27,7 +27,7 @@ include('components/navbar.php');
 <section class="projects">
     <div class="projects-unit" data-aos="zoom-in">
         <a href="shevent">
-            <img src="assets/img/shevent.jpg" alt="miniature du projet shevent">
+            <img width="374" height="374" src="assets/img/shevent.avif" alt="miniature du projet shevent">
         </a>
         <div class="overlay">
             <p>SH Event</p>
@@ -36,7 +36,7 @@ include('components/navbar.php');
 
     <div class="projects-unit" data-aos="zoom-in">
         <a href="laboulenoire">
-            <img src="assets/img/laboulenoire.jpg" alt="miniature du projet la boule noire">
+            <img width="374" height="374" src="assets/img/laboulenoire.avif" alt="miniature du projet la boule noire">
         </a>
         <div class="overlay">
             <p>La Boule Noire</p>
@@ -45,7 +45,7 @@ include('components/navbar.php');
 
     <div class="projects-unit" data-aos="zoom-in">
         <a href="starkmotors">
-            <img src="assets/img/starkmotors.jpg" alt="miniature du projet stark motors">
+            <img width="374" height="374" src="assets/img/starkmotors.avif" alt="miniature du projet stark motors">
         </a>
         <div class="overlay">
             <p>Stark Motors</p>
