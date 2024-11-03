@@ -1,0 +1,10 @@
+ErrorDocument 404 /404.php
+
+# protection de la lecture des répertoires
+ Options -Indexes
+
+# protect the htaccess file
+<files .htaccess>
+order allow,deny
+deny from all
+</files>
