@@ -19,7 +19,6 @@
     </ul>
 </nav>
 
-
 <section class="project">
 
     <img class="project-img" src="../assets/img/blog/raison-de-choisir-symfony-pour-vos-projets.jpg" alt="Pourquoi choisir Symfony pour votre projet web">
@@ -29,7 +28,6 @@
             <p class="project-details-title">Le 30/10/2024 </p>
         </div>
     </div>
-
 
     <div class="project-description">
         <div data-aos="fade-up">
@@ -149,25 +147,16 @@
                 la réussite de votre projet à long terme.
             </p>
         </div>
-
-        <!--        <div data-aos="fade-up">-->
-        <!--            <p class="project-description-title">Sources</p>-->
-        <!--            <div class="flex-direction-column sources-link">-->
-        <!--                <a href="https://symfony.com/releases" target="_blank">Symfony Releases</a>-->
-        <!--                <a href="https://symfony.com/what-is-symfony" target="_blank">What is Symfony</a>-->
-        <!--            </div>-->
-        <!--        </div>-->
     </div>
 
     <div class="project-next">
-        <a href="cest-quoi-symfony">
-            <p class="project-next-caption">Article précédent</p>
-            <p>C'est quoi Symfony ?</p>
+        <a href="les-composants-essentiels-de-symfony">
+            <p class="project-next-caption">Article suivant</p>
+            <p>Les composants essentiels de Symfony</p>
         </a>
     </div>
 
 </section>
-
 
 <?php
 include('../components/footer.php');

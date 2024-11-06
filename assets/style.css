@@ -1,1 +1,446 @@
-.aboutme-description-img,.section-404,.text-align-center,figcaption,footer{text-align:center}.homepage p,.mg-y-20{margin-top:20px}.details-location,.footer-col:first-child,.mg-bottom-20,.mg-y-20{margin-bottom:20px}.projects img,.projects-unit:hover .overlay{opacity:1;transition:.3s}.bold,.key-figure,.project-details-title,a{font-weight:700}.aboutme-cv a,.blog-unit h2,.project-next a,.projects img,.projects-unit,nav li{transition:.3s}@font-face{font-family:Montserrat;src:url('montserrat.woff2') format('woff2');font-display:swap}*,ul{padding:0;margin:0}*{box-sizing:border-box}body{font-family:Montserrat,sans-serif}ul{list-style:none}a{text-decoration:none;color:#111;letter-spacing:2px}.key-figure{font-size:1.2em;letter-spacing:5px}.font-s-2em{font-size:2em}.page-404{display:flex;flex-direction:column;min-height:100vh;justify-content:space-between}.section-404{padding:15px}.line-height-2{line-height:2}.letter-spacing-2{letter-spacing:2px}.aboutme,.container,.homepage,.project{padding:0 15px}.pd-y-5{padding:5px 0}.aboutme h2,.aboutme-description p,.mg-bottom-40m-80d{margin-bottom:40px}.aboutme-details div,.mg-bottom-80{margin-bottom:80px}.blog-unit:hover h2,.project-link,nav li:hover a{color:orange}.blog-sources-link:hover,.project-link:hover{text-decoration:underline}.list-style-type-disc{list-style-type:disc}.list-style-type-disc li{margin-bottom:20px;margin-left:20px}.color-grey{color:#737373;font-size:14px}nav{margin-top:30px;margin-bottom:100px}nav ul{display:flex;justify-content:right}nav li{margin:0 15px}nav li a{transition:.2s}.aboutme-cv a:hover,.project-next a:hover,nav li:hover{transform:scale(1.1)}.homepage span{font-weight:400}.homepage p{margin-bottom:70px}.footer-content,.projects{display:flex;flex-direction:column;align-items:center}.projects-unit{margin:5px;display:flex;background-color:#111;position:relative;overflow:hidden}.projects-unit a,footer .social-media{display:flex}.projects-unit:hover img{transform:scale(1.1);opacity:.4}.overlay{position:absolute;top:85%;left:10%;opacity:0;color:#fff;font-size:1.5em}.project-details{display:flex;flex-direction:column;margin:20px 0;color:#737373}.project-details div{margin-bottom:15px}.project-details-title{text-transform:uppercase;margin-bottom:8px}.project-description{display:flex;flex-direction:column;margin-top:60px}.project-description div{margin-bottom:60px}.project-description-title{font-size:24px;margin-bottom:20px;font-weight:700}.project img{width:100%}.project h1{margin-top:40px}figcaption{font-size:.9em}.project-next{display:flex;justify-content:end;text-align:right}.project-next-caption{font-size:.8em;color:#737373;text-transform:uppercase;margin-bottom:8px}.flex-direction-column{flex-direction:column;margin-bottom:0!important}.aboutme-description-img img{width:300px}.aboutme-details{margin-top:100px}.aboutme-cv{display:flex;justify-content:center}.aboutme-cv a{border:1px solid #111;padding:18px 28px}.blog-grid{display:flex;flex-direction:column}.blog-unit{display:flex;width:100%;flex-direction:column;align-items:center;margin-bottom:60px}.blog-unit-title{margin-bottom:10px;letter-spacing:0;font-size:1.3em}.blog-unit-date{color:#737373;font-size:12px}.blog-unit-description{letter-spacing:0;font-weight:400;margin-top:10px}.blog-unit img{width:100%;margin-bottom:15px}.blog-sources-link{color:orange;letter-spacing:0;transition:.2s}footer{background-color:#fafafa;margin-top:150px;padding:30px 0}.footer-col{width:280px}footer .title{color:#737373;text-transform:uppercase;margin-bottom:5px}footer img{width:30px;margin-right:10px}.footer-col a:hover{color:#737373}@media all and (min-width:800px){nav{margin-right:7%}.homepage h1{font-size:38px}.homepage p{font-size:18px}.project-details{flex-direction:row;justify-content:space-between}.project h1{margin-top:60px}.aboutme-description,.aboutme-details{display:flex;justify-content:space-between}.aboutme-description-img img{margin-left:30px}}@media all and (min-width:1000px){.homepage p{width:800px}.projects{flex-direction:row;flex-wrap:wrap;justify-content:center}.title-blog p{margin-bottom:150px}.blog-grid{flex-direction:row;flex-wrap:wrap;justify-content:space-between}.blog-unit{width:40%;margin-bottom:90px}}@media all and (min-width:1200px){.mg-bottom-40m-80d{margin-bottom:80px}.aboutme,.footer-content,.homepage,.project,.projects{width:1152px;margin:0 auto}.container{width:1150px;margin:0 auto}.footer-content{margin:20px auto}.project-description div{display:flex;justify-content:space-between;margin-bottom:160px}.project-description-title{padding-right:3em}.project-description-content{max-width:700px;font-size:1.1em;line-height:1.5}.project-description{margin-top:160px}.aboutme-details div{width:500px}.blog-description-transition{font-size:1.2em;flex-direction:column;text-align:center}}
+.aboutme-description-img, .section-404, .text-align-center, figcaption, footer {
+    text-align: center
+}
+
+.homepage p, .mg-y-20 {
+    margin-top: 20px
+}
+
+.details-location, .footer-col:first-child, .mg-bottom-20, .mg-y-20 {
+    margin-bottom: 20px
+}
+
+.projects img, .projects-unit:hover .overlay {
+    opacity: 1;
+    transition: .3s
+}
+
+.bold, .key-figure, .project-details-title, a {
+    font-weight: 700
+}
+
+.aboutme-cv a, .blog-unit h2, .project-next a, .projects img, .projects-unit, nav li {
+    transition: .3s
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url('montserrat.woff2') format('woff2');
+    font-display: swap
+}
+
+*, ul {
+    padding: 0;
+    margin: 0
+}
+
+* {
+    box-sizing: border-box
+}
+
+body {
+    font-family: Montserrat, sans-serif
+}
+
+ul {
+    list-style: none
+}
+
+a {
+    text-decoration: none;
+    color: #111;
+    letter-spacing: 2px
+}
+
+.key-figure {
+    font-size: 1.2em;
+    letter-spacing: 5px
+}
+.code-primary {
+    color: white;
+    /*font-weight: bold;*/
+    background-color: #221F22;
+    padding: 1px 5px;
+    border-radius: 5px;
+}
+.font-s-2em {
+    font-size: 2em
+}
+
+.page-404 {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between
+}
+
+.section-404 {
+    padding: 15px
+}
+
+.line-height-2 {
+    line-height: 2
+}
+
+.letter-spacing-2 {
+    letter-spacing: 2px
+}
+
+.aboutme, .container, .homepage, .project {
+    padding: 0 15px
+}
+
+.pd-y-5 {
+    padding: 5px 0
+}
+
+.aboutme h2, .aboutme-description p, .mg-bottom-40m-80d {
+    margin-bottom: 40px
+}
+
+.aboutme-details div, .mg-bottom-80 {
+    margin-bottom: 80px
+}
+
+.blog-unit:hover h2, .project-link, nav li:hover a {
+    color: orange
+}
+
+.blog-sources-link:hover, .project-link:hover {
+    text-decoration: underline
+}
+
+.list-style-type-disc {
+    list-style-type: disc
+}
+
+.list-style-type-disc li {
+    margin-bottom: 20px;
+    margin-left: 20px
+}
+
+.color-grey {
+    color: #737373;
+    font-size: 14px
+}
+.monokai-pink {
+    color: #FF6188;
+}
+
+nav {
+    margin-top: 30px;
+    margin-bottom: 100px
+}
+
+nav ul {
+    display: flex;
+    justify-content: right
+}
+
+nav li {
+    margin: 0 15px
+}
+
+nav li a {
+    transition: .2s
+}
+
+.aboutme-cv a:hover, .project-next a:hover, nav li:hover {
+    transform: scale(1.1)
+}
+
+.homepage span {
+    font-weight: 400
+}
+
+.homepage p {
+    margin-bottom: 70px
+}
+
+.footer-content, .projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.projects-unit {
+    margin: 5px;
+    display: flex;
+    background-color: #111;
+    position: relative;
+    overflow: hidden
+}
+
+.projects-unit a, footer .social-media {
+    display: flex
+}
+
+.projects-unit:hover img {
+    transform: scale(1.1);
+    opacity: .4
+}
+
+.overlay {
+    position: absolute;
+    top: 85%;
+    left: 10%;
+    opacity: 0;
+    color: #fff;
+    font-size: 1.5em
+}
+
+.project-details {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+    color: #737373
+}
+
+.project-details div {
+    margin-bottom: 15px
+}
+
+.project-details-title {
+    text-transform: uppercase;
+    margin-bottom: 8px
+}
+
+.project-description {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px
+}
+
+.project-description div {
+    margin-bottom: 60px
+}
+
+.project-description-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 700
+}
+.project-description-content, .project-description-title {
+    line-height: 1.5;
+}
+.project img {
+    width: 100%
+}
+
+.project h1 {
+    margin-top: 40px
+}
+
+figcaption {
+    font-size: .9em
+}
+
+.project-next {
+    display: flex;
+    justify-content: end;
+    text-align: right
+}
+
+.project-next-caption {
+    font-size: .8em;
+    color: #737373;
+    text-transform: uppercase;
+    margin-bottom: 8px
+}
+
+.flex-direction-column {
+    flex-direction: column;
+    margin-bottom: 0 !important
+}
+
+.aboutme-description-img img {
+    width: 300px
+}
+
+.aboutme-details {
+    margin-top: 100px
+}
+
+.aboutme-cv {
+    display: flex;
+    justify-content: center
+}
+
+.aboutme-cv a {
+    border: 1px solid #111;
+    padding: 18px 28px
+}
+
+.blog-grid {
+    display: flex;
+    flex-direction: column
+}
+
+.blog-unit {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px
+}
+
+.blog-unit-title {
+    margin-bottom: 10px;
+    letter-spacing: 0;
+    font-size: 1.3em
+}
+
+.blog-unit-date {
+    color: #737373;
+    font-size: 12px
+}
+
+.blog-unit-description {
+    letter-spacing: 0;
+    font-weight: 400;
+    margin-top: 10px
+}
+
+.blog-unit img {
+    width: 100%;
+    margin-bottom: 15px
+}
+
+.blog-sources-link {
+    color: orange;
+    letter-spacing: 0;
+    transition: .2s
+}
+
+footer {
+    background-color: #fafafa;
+    margin-top: 150px;
+    padding: 30px 0
+}
+
+.footer-col {
+    width: 280px
+}
+
+footer .title {
+    color: #737373;
+    text-transform: uppercase;
+    margin-bottom: 5px
+}
+
+footer img {
+    width: 30px;
+    margin-right: 10px
+}
+
+.footer-col a:hover {
+    color: #737373
+}
+
+@media all and (min-width: 800px) {
+    nav {
+        margin-right: 7%
+    }
+
+    .homepage h1 {
+        font-size: 38px
+    }
+
+    .homepage p {
+        font-size: 18px
+    }
+
+    .project-details {
+        flex-direction: row;
+        justify-content: space-between
+    }
+
+    .project h1 {
+        margin-top: 60px
+    }
+
+    .aboutme-description, .aboutme-details {
+        display: flex;
+        justify-content: space-between
+    }
+
+    .aboutme-description-img img {
+        margin-left: 30px
+    }
+}
+
+@media all and (min-width: 1000px) {
+    .homepage p {
+        width: 800px
+    }
+
+    .projects {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center
+    }
+
+    .title-blog p {
+        margin-bottom: 150px
+    }
+
+    .blog-grid {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between
+    }
+
+    .blog-unit {
+        width: 40%;
+        margin-bottom: 90px
+    }
+}
+
+@media all and (min-width: 1200px) {
+    .mg-bottom-40m-80d {
+        margin-bottom: 80px
+    }
+
+    .aboutme, .footer-content, .homepage, .project, .projects {
+        width: 1152px;
+        margin: 0 auto
+    }
+
+    .container {
+        width: 1150px;
+        margin: 0 auto
+    }
+
+    .footer-content {
+        margin: 20px auto
+    }
+
+    .project-description div {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 160px
+    }
+
+    .project-description-title {
+        padding-right: 3em
+    }
+
+    .project-description-content {
+        max-width: 700px;
+        font-size: 1.1em;
+    }
+
+    .project-description {
+        margin-top: 160px
+    }
+
+    .aboutme-details div {
+        width: 500px
+    }
+
+    .blog-description-transition {
+        font-size: 1.2em;
+        flex-direction: column;
+        text-align: center
+    }
+}

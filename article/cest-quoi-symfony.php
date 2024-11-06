@@ -6,7 +6,7 @@
     ?>
     <title>C'est quoi Symfony ? - Hari Siracuse</title>
     <meta name="description"
-          content="Dans cet article, je vous explique ce qu'est Symfony, son histoire et la richesse de sa communauté">
+          content="Dans cet article, je vous explique ce qu'est Symfony, son histoire et la richesse de sa communauté.">
 </head>
 <body>
 
@@ -19,17 +19,16 @@
     </ul>
 </nav>
 
-
 <section class="project">
 
-    <img class="project-img" src="../assets/img/blog/symfony-framework-php.jpg" alt="Symfony : Le framework PHP incontournable en 2024">
+    <img class="project-img" src="../assets/img/blog/symfony-framework-php.jpg"
+         alt="Symfony : Le framework PHP incontournable en 2024">
     <h1>Symfony : Le framework PHP incontournable en 2024</h1>
     <div class="project-details">
         <div>
             <p class="project-details-title">Le 30/10/2024 </p>
         </div>
     </div>
-
 
     <div class="project-description">
         <div data-aos="fade-up">
@@ -62,8 +61,6 @@
                 applications web
                 dynamiques. Symfony, construit sur PHP, offre une structure solide qui facilite et accélère le
                 développement de ces applications. <br><br>
-
-
             </p>
         </div>
 
@@ -73,7 +70,6 @@
                 Pour mieux comprendre la valeur de Symfony, regardons son histoire.
             </p>
         </div>
-
 
         <div data-aos="fade-up">
             <p class="project-description-title">L’histoire de Symfony </p>
@@ -159,7 +155,6 @@
     </div>
 
 </section>
-
 
 <?php
 include('../components/footer.php');

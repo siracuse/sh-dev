@@ -26,18 +26,30 @@ include('components/navbar.php');
             <div>
                 <h2 class="blog-unit-title">Symfony : C'est quoi Symfony ?</h2>
                 <p class="blog-unit-date">30/10/2024</p>
-                <p class="blog-unit-description">Symfony, l’un des frameworks PHP open source les plus populaires, est
-                    devenu un pilier du développement web ...</p>
+                <p class="blog-unit-description">Dans cet article, je vous explique ce qu'est Symfony, son histoire et
+                    la richesse de sa communauté.</p>
             </div>
         </a>
 
         <a class="blog-unit" href="article/pourquoi-utiliser-symfony-dans-vos-projets">
-            <div><img src="assets/img/blog/pourquoi-utiliser-symfony-dans-vos-projets.jpg" alt="article de blog : Pourquoi choisir Symfony pour votre projet web"></div>
+            <div><img src="assets/img/blog/pourquoi-utiliser-symfony-dans-vos-projets.jpg"
+                      alt="article de blog : Pourquoi choisir Symfony pour votre projet web"></div>
             <div>
                 <h2 class="blog-unit-title">Pourquoi choisir Symfony pour votre projet web ?</h2>
                 <p class="blog-unit-date">30/10/2024</p>
-                <p class="blog-unit-description">Schoisir le bon framework est une étape cruciale pour garantir la
-                    réussite d’un projet.</p>
+                <p class="blog-unit-description">Découvrez pourquoi Symfony est un choix judicieux pour vos projets web.
+                    Dans cet article, j'explique les avantages de ce framework robuste et flexible.</p>
+            </div>
+        </a>
+
+        <a class="blog-unit" href="article/les-composants-essentiels-de-symfony">
+            <div><img src="assets/img/blog/les-composants-essentiels-de-symfony.jpg"
+                      alt="article de blog : Pourquoi choisir Symfony pour votre projet web"></div>
+            <div>
+                <h2 class="blog-unit-title">Les composants essentiels de Symfony</h2>
+                <p class="blog-unit-date">06/11/2024</p>
+                <p class="blog-unit-description">Découvrez dans cet article, les composants principaux de Symfony et
+                    leurs rôles.</p>
             </div>
         </a>
     </div>
