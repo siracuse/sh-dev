@@ -2,5 +2,6 @@ User-agent: *
 
 Disallow: /assets/
 Disallow: /components/
+Disallow: /save
 
 Sitemap: https://www.sh-dev.fr/sitemap.xml
