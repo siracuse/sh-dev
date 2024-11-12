@@ -4,7 +4,7 @@
     <?php
     include('components/header.php');
     ?>
-    <title>Hari Siracuse - Développeur PHP Symfony Freelance</title>
+    <title>Hari Siracuse - Développeur Symfony | PHP</title>
     <meta name="description"
           content="Bienvenue sur mon portfolio en ligne ! Je suis Hari Siracuse, développeur web spécialisé en Symfony. Découvrez mon parcours, mes compétences et les projets que j’ai réalisés.">
 </head>
@@ -19,8 +19,7 @@ include('components/navbar.php');
 <section class="homepage">
     <h1>Hari SIRACUSE - Développeur Symfony</h1>
     <p>Des projets Symfony qui parlent d'eux-mêmes - Avec plus de quatre ans d'expérience et une multitude de projets à
-        mon
-        actif, explorez mon portfolio afin de découvrir mes diverses réalisations.</p>
+        mon actif, explorez mon portfolio afin de découvrir mes diverses réalisations.</p>
 </section>
 
 
