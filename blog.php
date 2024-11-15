@@ -25,6 +25,16 @@ include('components/navbar.php');
 <section class="blog">
     <div class="container blog-grid">
 
+        <a class="blog-unit" href="article/cest-quoi-un-framework.php">
+            <div><img src="assets/img/blog/explication-framework.jpg"
+                      alt="article de blog : Pourquoi choisir Symfony pour votre projet web"></div>
+            <div>
+                <h2 class="blog-unit-title">C'est quoi un framework ?</h2>
+                <p class="blog-unit-date">15/11/2024</p>
+                <p class="blog-unit-description">Tout savoir sur les frameworks, les avantages, le fonctionnement ...</p>
+            </div>
+        </a>
+
         <a class="blog-unit" href="article/les-composants-essentiels-de-symfony">
             <div><img src="assets/img/blog/les-composants-essentiels-de-symfony.jpg"
                       alt="article de blog : Pourquoi choisir Symfony pour votre projet web"></div>

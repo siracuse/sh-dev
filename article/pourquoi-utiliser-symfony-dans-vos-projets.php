@@ -34,7 +34,7 @@
             <p class="project-description-title">Introduction</p>
             <p class="project-description-content">
                 Dans l’univers du développement web, choisir le bon framework est une étape cruciale pour garantir la
-                réussite d’un projet. <span class="bold">Symfony</span>, l'un des frameworks PHP les plus populaires, et
+                réussite d’un projet. <span class="bold">Symfony</span>, l'un des frameworks PHP les plus populaires,
                 se distingue par ses
                 nombreuses fonctionnalités et sa flexibilité. Mais pourquoi devriez-vous opter pour Symfony pour votre
                 prochain projet web ? Voici plusieurs raisons qui en font un choix incontournable pour les développeurs
@@ -125,7 +125,7 @@
             <p class="project-description-title">6. Longévité des versions LTS</p>
             <p class="project-description-content">
                 Symfony propose des versions <a class="blog-sources-link" href="https://symfony.com/releases">LTS</a>
-                (Long Term Support), qui garantit des mises à jour et un support
+                (Long Term Support), qui garantissent des mises à jour et un support
                 pendant plusieurs années. Cela est crucial pour des projets à long terme, car cela assure la stabilité
                 et la sécurité du projet sans nécessité de mettre à jour votre projet quotidiennement. <br><br>
                 La dernière version LTS, la 6.4, est maintenue pendant trois ans pour les corrections de bugs et
@@ -140,7 +140,7 @@
                 Symfony est un framework <span class="bold">puissant</span>, <span class="bold">flexible</span> et <span
                         class="bold">sécurisé</span>, adapté aussi bien aux petites applications
                 qu'aux projets de grande envergure. Sa <span class="bold">modularité</span>, son respect des <span
-                        class="bold">bonnes pratiques</span>, et sa large
+                        class="bold">bonnes pratiques</span> et sa large
                 communauté en font un choix de premier ordre pour de nombreuses entreprises. <br><br>
                 Si vous cherchez à
                 développer un projet web sur mesure, évolutif et sécurisé, Symfony est un excellent choix pour garantir

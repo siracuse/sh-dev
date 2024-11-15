@@ -36,7 +36,7 @@
             <p class="project-description-content">
                 <span class="bold">Symfony</span>, l’un des <span class="bold">frameworks PHP</span> open source les
                 plus populaires, est devenu un pilier du développement
-                web moderne. Il est utilisé pour développer des projets web de toutes sortes, telles que des sites
+                web moderne. Il est utilisé pour développer des projets web de toutes sortes, tels que des sites
                 d’entreprise, des plateformes e-commerce, des sites événementiels, et même des intranets.
             </p>
         </div>
@@ -77,11 +77,11 @@
                 Symfony a été lancé en 2005 par <span class="bold">Fabien Potencier</span>, de la société <span
                         class="bold">SensioLabs</span>, une entreprise française.
                 Cette entreprise a constaté qu’elle redéveloppait toujours les mêmes fonctionnalités pour chaque projet.
-                C’est alors qu’elle a développé un framework lui permettrait de répondre à cette problématique.
+                C’est alors qu’elle a développé un framework lui permettant de répondre à cette problématique.
                 Rapidement, SensioLabs a réalisé que cette problématique était partagée par de nombreux autres
                 développeurs. L’agence a donc partagé le code avec la communauté de développeurs PHP. C’est alors que le
                 framework est devenu « Symfony ». <br><br>
-                Aujourd’hui, le framework a permis à des entreprises comme <span class="bold">Blablacar</span>, <span
+                Aujourd’hui, le framework a permis à des entreprises comme <span class="bold">BlaBlaCar</span>, <span
                         class="bold">Spotify</span> ou encore la <span class="bold">SNCF Connect</span> de créer
                 des applications performantes et sécurisées.
             </p>

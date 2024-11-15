@@ -32,7 +32,7 @@
 
     <div class="project-description">
         <div data-aos="fade-up" class="blog-description-transition mg-bottom-80">
-            <p class=" mg-bottom-40m-80d">Le framework symfony repose sur un en ensemble de composants <br> dont je vais
+            <p class=" mg-bottom-40m-80d">Le framework <span class="bold">Symfony</span> repose sur un ensemble de composants <br> dont je vais
                 vous présenter quelques-uns dans cet article. </p>
         </div>
 
@@ -46,7 +46,7 @@
                         class="code-primary">echo</span>,
                 <span class="code-primary">header</span>. Cependant, traiter directement ces variables et fonctions peut
                 être fastidieux, surtout
-                lorsqu’il s’agit de respecter les bonnes pratiques et norme de sécurité. <br><br>
+                lorsqu’il s’agit de respecter les bonnes pratiques et normes de sécurité. <br><br>
                 Pour remédier à ce problème, une approche orientée objet s’impose, et c’est là qu’intervient le
                 composant <span class="bold">HttpFoundation</span>. Il va vous fournir toutes les classes nécessaires
                 pour gérer les échanges
@@ -58,7 +58,7 @@
             <p class="project-description-title">Routing : Le guide des URLs vers les actions</p>
             <p class="project-description-content">
                 Le rôle principal du composant Routing de Symfony est de gérer la <span
-                        class="bold">correspondance</span> entre les <span class="bold">urls entrante</span>
+                        class="bold">correspondance</span> entre les <span class="bold">urls entrantes</span>
                 et les <span class="bold">actions à exécuter</span>. Ce composant offre également d’autres
                 fonctionnalités pratiques comme la
                 génération d’urls optimisées pour le référencement. <br><br>
@@ -77,7 +77,7 @@
                     Le composant Security de Symfony fournit de nombreux outils pour <span class="bold">sécuriser</span>
                     votre application web. Ce
                     composant intègre des fonctionnalités d’authentification et d’autorisation, le chiffrement des mots
-                    de passe ainsi que la gestion des rôles et permissions pour contrôler l’accès aux différentes
+                    de passe ainsi que la gestion des rôles et des permissions pour contrôler l’accès aux différentes
                     parties du site web.
                 </p>
                 <ul class="list-style-type-disc">
@@ -88,7 +88,7 @@
                     <li><span class="bold">Restriction d’accès</span> : Il est possible d’attribuer des rôles pour
                         chaque utilisateur (<span class="monokai-pink">ROLE_ADMIN</span>, <span class="monokai-pink">ROLE_USER</span>,
                         etc), et de restreindre l’accès en fonction des rôles
-                        définit. Vous pouvez également limiter certains accès en fonction de l’adresse IP de
+                        définis. Vous pouvez également limiter certains accès en fonction de l’adresse IP de
                         l’utilisateur.
                     </li>
                     <li><span class="bold">Chiffrement des mots de passe</span> : concernant le chiffrement des mots de
@@ -97,7 +97,7 @@
                         utilise Bcrypt, un algorithme basé sur le chiffrement Blowfish.
                     </li>
                 </ul>
-                <p>Le composant Security apporte toutes les fonctionnalités qu’une application web a besoin pour
+                <p>Le composant Security apporte toutes les fonctionnalités dont une application web a besoin pour
                     développer un espace utilisateur et administrateur sécurisé.</p>
             </div>
         </div>
@@ -116,8 +116,8 @@
                 données directement dans le template. <br><br>
                 Au niveau de la sécurité, Twig s’assure d’échapper automatiquement les variables affichées. <br><br>
                 Enfin, Twig propose des fonctionnalités avancées comme l’héritage de template, permettant de créer des
-                template de base réutilisable pour différentes pages d’un site (remplaçant le include de PHP). Cette
-                fonctionnalité réduit la duplication de code et simplifie la structure du site internet.
+                templates de base réutilisables pour différentes pages d’un site (remplaçant le include de PHP). Cette
+                fonctionnalité réduit la duplication de code et simplifie la structure du site Internet.
             </p>
         </div>
 
@@ -128,7 +128,7 @@
                 Le composant Form de symfony est un composant permettant de simplifier la <span class="bold">gestion des formulaires</span>.
                 Il
                 prend en charge la construction du formulaire, l’affichage et le traitement des données de manière
-                sécurisé. <br><br>
+                sécurisée. <br><br>
                 Ce composant s’intègre parfaitement avec le composant Validator, rendant la gestion des formulaires plus
                 efficace.
             </p>
@@ -141,10 +141,10 @@
                             class="bold">valider les
                     données</span> saisies dans les
                     formulaires, dont nous avons défini les critères en amont. Il existe de nombreuses contraintes de
-                    validation prête à être utilisé comme : </p>
+                    validation prêtes à être utilisées comme : </p>
                 <ul class="list-style-type-disc">
                     <li><span class="bold">NotBlank</span> : vérifie qu’une valeur n’est pas vide.</li>
-                    <li><span class="bold">Email</span> : vérifie que la valeur est une adresse mail valide.</li>
+                    <li><span class="bold">Email</span> : vérifie que la valeur est une adresse email valide.</li>
                 </ul>
                 <p>Ce composant permet également de créer des contraintes personnalisées en plus des contraintes déjà
                     présentes et de personnaliser les messages d’erreur. En l’utilisant avec Form, chaque champ pourra
