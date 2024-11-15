@@ -25,7 +25,7 @@ include('components/navbar.php');
 <section class="blog">
     <div class="container blog-grid">
 
-        <a class="blog-unit" href="article/cest-quoi-un-framework.php">
+        <a class="blog-unit" href="article/cest-quoi-un-framework">
             <div><img src="assets/img/blog/explication-framework.jpg"
                       alt="article de blog : Pourquoi choisir Symfony pour votre projet web"></div>
             <div>

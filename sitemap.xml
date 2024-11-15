@@ -23,19 +23,23 @@
     </url>
     <url>
         <loc>https://sh-dev.fr/blog</loc>
-        <lastmod>2024-11-12</lastmod>
+        <lastmod>2024-11-15</lastmod>
     </url>
     <url>
         <loc>https://sh-dev.fr/article/cest-quoi-symfony</loc>
-        <lastmod>2024-10-30</lastmod>
+        <lastmod>2024-11-15</lastmod>
     </url>
     <url>
         <loc>https://sh-dev.fr/article/pourquoi-utiliser-symfony-dans-vos-projets</loc>
-        <lastmod>2024-10-30</lastmod>
+        <lastmod>2024-11-15</lastmod>
     </url>
     <url>
         <loc>https://sh-dev.fr/article/les-composants-essentiels-de-symfony</loc>
-        <lastmod>2024-11-06</lastmod>
+        <lastmod>2024-11-15</lastmod>
+    </url>
+    <url>
+        <loc>http://localhost/sh-dev/article/cest-quoi-un-framework</loc>
+        <lastmod>2024-11-15</lastmod>
     </url>
 
 </urlset>
