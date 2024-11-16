@@ -1,9 +1,15 @@
+@import "_utility.css";
+
 .aboutme-description-img, .section-404, .text-align-center, figcaption, footer {
     text-align: center
 }
 
 .homepage p, .mg-y-20 {
     margin-top: 20px
+}
+
+.title-blog p {
+    margin-bottom: 100px
 }
 
 .details-location, .footer-col:first-child, .mg-bottom-20, .mg-y-20 {
@@ -23,28 +29,6 @@
     transition: .3s
 }
 
-@font-face {
-    font-family: Montserrat;
-    src: url('montserrat.woff2') format('woff2');
-    font-display: swap
-}
-
-*, ul {
-    padding: 0;
-    margin: 0
-}
-
-* {
-    box-sizing: border-box
-}
-
-body {
-    font-family: Montserrat, sans-serif
-}
-
-ul {
-    list-style: none
-}
 
 a {
     text-decoration: none;
@@ -56,13 +40,14 @@ a {
     font-size: 1.2em;
     letter-spacing: 5px
 }
+
 .code-primary {
     color: white;
-    /*font-weight: bold;*/
     background-color: #221F22;
     padding: 1px 5px;
     border-radius: 5px;
 }
+
 .font-s-2em {
     font-size: 2em
 }
@@ -80,6 +65,13 @@ a {
 
 .line-height-2 {
     line-height: 2
+}
+
+.subtitle-index {
+    text-align: center;
+    margin-bottom: 35px;
+    margin-top: 100px;
+    padding: 0 15px;
 }
 
 .letter-spacing-2 {
@@ -102,9 +94,15 @@ a {
     margin-bottom: 80px
 }
 
-.blog-unit:hover h2, .project-link, nav li:hover a {
+.project-link, nav li:hover a {
     color: orange
 }
+
+.blog-unit:hover h2 {
+    color: orange;
+    letter-spacing: 0.5px;
+}
+
 
 .blog-sources-link:hover, .project-link:hover {
     text-decoration: underline
@@ -123,6 +121,7 @@ a {
     color: #737373;
     font-size: 14px
 }
+
 .monokai-pink {
     color: #FF6188;
 }
@@ -151,10 +150,6 @@ nav li a {
 
 .homepage span {
     font-weight: 400
-}
-
-.homepage p {
-    margin-bottom: 70px
 }
 
 .footer-content, .projects {
@@ -220,9 +215,11 @@ nav li a {
     margin-bottom: 20px;
     font-weight: 700
 }
+
 .project-description-content, .project-description-title {
     line-height: 1.5;
 }
+
 .project img {
     width: 100%
 }
@@ -273,7 +270,8 @@ figcaption {
 
 .blog-grid {
     display: flex;
-    flex-direction: column
+    flex-direction: column;
+    align-items: center;
 }
 
 .blog-unit {
@@ -281,7 +279,8 @@ figcaption {
     width: 100%;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 60px
+    margin-bottom: 60px;
+    max-width: 600px;
 }
 
 .blog-unit-title {
@@ -370,6 +369,7 @@ footer img {
 }
 
 @media all and (min-width: 1000px) {
+
     .homepage p {
         width: 800px
     }
@@ -380,9 +380,6 @@ footer img {
         justify-content: center
     }
 
-    .title-blog p {
-        margin-bottom: 150px
-    }
 
     .blog-grid {
         flex-direction: row;
@@ -401,14 +398,24 @@ footer img {
         margin-bottom: 80px
     }
 
+    .subtitle-index {
+        text-align: left;
+        margin: 100px auto 20px auto;
+        width: 1152px;
+        padding: 0;
+    }
+
+
     .aboutme, .footer-content, .homepage, .project, .projects {
         width: 1152px;
-        margin: 0 auto
+        margin: 0 auto;
+        padding: 0;
     }
 
     .container {
         width: 1150px;
-        margin: 0 auto
+        margin: 0 auto;
+        padding: 0;
     }
 
     .footer-content {

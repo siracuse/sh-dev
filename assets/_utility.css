@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+    /*    padding: 0;*/
+    /*    margin: 0;*/
+}
+
+body {
+    font-family: Montserrat, sans-serif
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url('montserrat.woff2') format('woff2');
+    font-display: swap
+}

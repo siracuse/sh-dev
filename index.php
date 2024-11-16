@@ -22,7 +22,7 @@ include('components/navbar.php');
         mon actif, explorez mon portfolio afin de découvrir mes diverses réalisations.</p>
 </section>
 
-
+<h2 class="subtitle-index">Mes projets</h2>
 <section class="projects">
     <div class="projects-unit" data-aos="zoom-in">
         <a href="shevent">
@@ -51,6 +51,36 @@ include('components/navbar.php');
         </div>
     </div>
 </section>
+
+
+<h2 class="subtitle-index mt-80">Mes derniers articles de blog</h2>
+<section class="blog">
+    <div class="container blog-grid">
+
+        <a class="blog-unit" href="article/cest-quoi-un-framework" data-aos="zoom-in">
+            <div><img src="assets/img/blog/explication-framework.jpg"
+                      alt="article de blog : Pourquoi choisir Symfony pour votre projet web"></div>
+            <div>
+                <h2 class="blog-unit-title">C'est quoi un framework ?</h2>
+                <p class="blog-unit-date">15/11/2024</p>
+                <p class="blog-unit-description">Tout savoir sur les frameworks, les avantages, le fonctionnement ...</p>
+            </div>
+        </a>
+
+        <a class="blog-unit" href="article/les-composants-essentiels-de-symfony" data-aos="zoom-in">
+            <div><img src="assets/img/blog/les-composants-essentiels-de-symfony.jpg"
+                      alt="article de blog : Pourquoi choisir Symfony pour votre projet web"></div>
+            <div>
+                <h2 class="blog-unit-title">Les composants essentiels de Symfony</h2>
+                <p class="blog-unit-date">06/11/2024</p>
+                <p class="blog-unit-description">Découvrez dans cet article, les composants principaux de Symfony et
+                    leurs rôles.</p>
+            </div>
+        </a>
+
+    </div>
+</section>
+
 
 <?php
 include('components/footer.php');
