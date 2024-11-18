@@ -6,18 +6,13 @@
     ?>
     <title>C'est quoi un framework ? - Hari Siracuse</title>
     <meta name="description"
-          content="Dans cet article, je vous explique ce qu'est un framework, ses avantages, ses inconvénients. son fonctionnement">
+          content="Dans cet article, je vous explique ce qu'est un framework, ses avantages, ses inconvénients, son fonctionnement.">
 </head>
 <body>
 
-<nav>
-    <ul>
-        <li><a href="/">Projets</a></li>
-        <li><a href="/blog">Blog</a></li>
-        <li><a href="/about">À propos</a></li>
-        <li><a href="https://www.linkedin.com/in/harichandra-siracuse/" target="_blank">In</a></li>
-    </ul>
-</nav>
+<?php
+include('../components/navbar.php');
+?>
 
 <section class="project">
 
@@ -93,7 +88,7 @@
         </div>
 
         <div data-aos="fade-up">
-            <p class="project-description-title">Pourquoi utiliser un framework ?</p>
+            <p class="project-description-title">Pourquoi utiliser un <br>framework ?</p>
             <div class="project-description-content flex-direction-column">
                 <p class="mg-bottom-20">
                     Les avantages d’utiliser un framework sont nombreux :
@@ -176,7 +171,7 @@
 
         <div data-aos="fade-up">
             <p class="project-description-title">Conclusion</p>
-            <p class="project-description-content">Malgré leurs défauts, les frameworks restent des alliés précieux pour
+            <p class="project-description-content">Malgré leurs défauts, les <span class="bold">frameworks</span> restent des alliés précieux pour
                 livrer des projets sécurisés et fiables rapidement. On pourrait maintenant se poser la question de comment choisir le
                 bon framework ? <br><br>
                 Comme nous l'avons vu dans la partie « différents types de frameworks », il en existe plusieurs, chacun

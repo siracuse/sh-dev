@@ -28,7 +28,16 @@
 .aboutme-cv a, .blog-unit h2, .project-next a, .projects img, .projects-unit, nav li {
     transition: .3s
 }
-
+.h1-index {
+    font-size: 0.8em;
+    color: #737373;
+}
+.navbar-primary {
+    color: orange;
+}
+.navbar-primary:hover {
+    color: black;
+}
 
 a {
     text-decoration: none;

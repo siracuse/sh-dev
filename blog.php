@@ -31,7 +31,7 @@ include('components/navbar.php');
             <div>
                 <h2 class="blog-unit-title">C'est quoi un framework ?</h2>
                 <p class="blog-unit-date">15/11/2024</p>
-                <p class="blog-unit-description">Tout savoir sur les frameworks, les avantages, le fonctionnement ...</p>
+                <p class="blog-unit-description">Dans cet article, je vous explique ce qu'est un framework, ses avantages, ses inconvénients, son fonctionnement.</p>
             </div>
         </a>
 
@@ -46,16 +46,6 @@ include('components/navbar.php');
             </div>
         </a>
 
-        <a class="blog-unit" href="article/cest-quoi-symfony">
-            <div><img src="assets/img/blog/cest-quoi-symfony.jpg" alt="article de blog : C'est quoi Symfony ?"></div>
-            <div>
-                <h2 class="blog-unit-title">Symfony : C'est quoi Symfony ?</h2>
-                <p class="blog-unit-date">30/10/2024</p>
-                <p class="blog-unit-description">Dans cet article, je vous explique ce qu'est Symfony, son histoire et
-                    la richesse de sa communauté.</p>
-            </div>
-        </a>
-
         <a class="blog-unit" href="article/pourquoi-utiliser-symfony-dans-vos-projets">
             <div><img src="assets/img/blog/pourquoi-utiliser-symfony-dans-vos-projets.jpg"
                       alt="article de blog : Pourquoi choisir Symfony pour votre projet web"></div>
@@ -64,6 +54,16 @@ include('components/navbar.php');
                 <p class="blog-unit-date">30/10/2024</p>
                 <p class="blog-unit-description">Découvrez pourquoi Symfony est un choix judicieux pour vos projets web.
                     Dans cet article, j'explique les avantages de ce framework robuste et flexible.</p>
+            </div>
+        </a>
+
+        <a class="blog-unit" href="article/cest-quoi-symfony">
+            <div><img src="assets/img/blog/cest-quoi-symfony.jpg" alt="article de blog : C'est quoi Symfony ?"></div>
+            <div>
+                <h2 class="blog-unit-title">Symfony : C'est quoi Symfony ?</h2>
+                <p class="blog-unit-date">30/10/2024</p>
+                <p class="blog-unit-description">Dans cet article, je vous explique ce qu'est Symfony, son histoire et
+                    la richesse de sa communauté.</p>
             </div>
         </a>
 

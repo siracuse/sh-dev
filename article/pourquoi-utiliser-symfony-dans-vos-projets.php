@@ -10,18 +10,14 @@
 </head>
 <body>
 
-<nav>
-    <ul>
-        <li><a href="/">Projets</a></li>
-        <li><a href="/blog">Blog</a></li>
-        <li><a href="/about">À propos</a></li>
-        <li><a href="https://www.linkedin.com/in/harichandra-siracuse/" target="_blank">In</a></li>
-    </ul>
-</nav>
+<?php
+include('../components/navbar.php');
+?>
 
 <section class="project">
 
-    <img class="project-img" src="../assets/img/blog/raison-de-choisir-symfony-pour-vos-projets.jpg" alt="Pourquoi choisir Symfony pour votre projet web">
+    <img class="project-img" src="../assets/img/blog/raison-de-choisir-symfony-pour-vos-projets.jpg"
+         alt="Pourquoi choisir Symfony pour votre projet web">
     <h1>Pourquoi choisir Symfony pour votre projet web</h1>
     <div class="project-details">
         <div>
@@ -44,7 +40,7 @@
 
         <div data-aos="fade-up" class="blog-description-transition">
             <p class="letter-spacing-2 line-height-2">
-                Voici plusieurs raisons qui font de Symfony <br> un choix incontournable  pour les
+                Voici plusieurs raisons qui font de Symfony <br> un choix incontournable pour les
                 entreprises.
             </p>
         </div>
@@ -105,10 +101,12 @@
                 L'écosystème Symfony est également très riche. Symfony est souvent utilisé en combinaison avec
                 d’autres outils comme <span class="bold">Doctrine</span> pour la gestion de base de données, <span
                         class="bold">Twig</span> pour le rendu des vues, et
-                <span class="bold">Webpack</span> Encore pour la gestion des assets. Vous pouvez facilement intégrer des
+                <span class="bold">Webpack Encore</span> pour la gestion des assets. Vous pouvez facilement intégrer des
                 solutions populaires
                 comme Stripe pour les paiements ou <span class="bold">Mailer</span> pour l'envoi d'emails. Ce large
-                écosystème vous permet de répondre à presque tous les besoins spécifiques de vos projets.
+                écosystème vous permet de répondre à presque tous les besoins spécifiques de vos projets. <br><br>
+                Pour en savoir plus sur les composants de Symfony, lisez mon article sur :
+                <a class="blog-sources-link" href="les-composants-essentiels-de-symfony">Les composants essentiels de Symfony</a>.<br><br>
             </p>
         </div>
 

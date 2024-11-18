@@ -10,14 +10,9 @@
 </head>
 <body>
 
-<nav>
-    <ul>
-        <li><a href="/">Projets</a></li>
-        <li><a href="/blog">Blog</a></li>
-        <li><a href="/about">À propos</a></li>
-        <li><a href="https://www.linkedin.com/in/harichandra-siracuse/" target="_blank">In</a></li>
-    </ul>
-</nav>
+<?php
+include('../components/navbar.php');
+?>
 
 <section class="project">
 
@@ -57,6 +52,7 @@
                 développement d'applications web. En offrant une structure réutilisable, un framework permet aux
                 développeurs de se concentrer sur les fonctionnalités spécifiques de leur projet sans avoir à recréer
                 des bases communes comme la gestion des utilisateurs ou des bases de données. <br><br>
+                Pour en savoir plus, lisez mon article sur : <a class="blog-sources-link" href="cest-quoi-un-framework">C'est quoi un framework ?</a><br><br>
                 <span class="bold">PHP</span> est un langage de programmation côté serveur, utilisé pour développer des
                 applications web
                 dynamiques. Symfony, construit sur PHP, offre une structure solide qui facilite et accélère le
@@ -67,7 +63,7 @@
 
         <div data-aos="fade-up" class="blog-description-transition">
             <p class="letter-spacing-2">
-                Pour mieux comprendre la valeur de Symfony, regardons son histoire.
+                Pour mieux comprendre ses origines, regardons son histoire.
             </p>
         </div>
 
@@ -107,7 +103,7 @@
                     </li>
                     <li><span class="bold">Tutoriels et formation</span> : En plus des tutoriels écrit et vidéo en
                         ligne, on peut retrouver des
-                        formations certifiées et des e-books (The fast track)
+                        formations certifiées et des e-books (The fast track).
                     </li>
                     <li><span class="bold">Contribution open source</span> : Symfony est un framework open source. Elle
                         permet donc à des
@@ -139,7 +135,7 @@
         <div data-aos="fade-up">
             <p class="project-description-title">Conclusion</p>
             <p class="project-description-content">
-                En somme, Symfony s'impose comme un framework incontournable pour les développeurs PHP grâce à sa
+                En somme, <span class="bold">Symfony</span> s'impose comme un <span class="bold">framework</span> incontournable pour les développeurs PHP grâce à sa
                 flexibilité, sa robustesse et le soutien continu d'une communauté active. Que vous soyez débutant ou
                 expert, Symfony offre les outils nécessaires pour développer des projets web de manière efficace et
                 sécurisée.

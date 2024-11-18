@@ -17,7 +17,7 @@ include('components/navbar.php');
 
 
 <section class="homepage">
-    <h1>Hari SIRACUSE - Développeur Symfony</h1>
+    <h1>Hari SIRACUSE <br> <span class="h1-index">Développeur Symfony</span></h1>
     <p>Des projets Symfony qui parlent d'eux-mêmes - Avec plus de quatre ans d'expérience et une multitude de projets à
         mon actif, explorez mon portfolio afin de découvrir mes diverses réalisations.</p>
 </section>
@@ -63,7 +63,7 @@ include('components/navbar.php');
             <div>
                 <h2 class="blog-unit-title">C'est quoi un framework ?</h2>
                 <p class="blog-unit-date">15/11/2024</p>
-                <p class="blog-unit-description">Tout savoir sur les frameworks, les avantages, le fonctionnement ...</p>
+                <p class="blog-unit-description">Dans cet article, je vous explique ce qu'est un framework, ses avantages, ses inconvénients, son fonctionnement.</p>
             </div>
         </a>
 

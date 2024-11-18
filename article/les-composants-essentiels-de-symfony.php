@@ -10,14 +10,9 @@
 </head>
 <body>
 
-<nav>
-    <ul>
-        <li><a href="/">Projets</a></li>
-        <li><a href="/blog">Blog</a></li>
-        <li><a href="/about">À propos</a></li>
-        <li><a href="https://www.linkedin.com/in/harichandra-siracuse/" target="_blank">In</a></li>
-    </ul>
-</nav>
+<?php
+include('../components/navbar.php');
+?>
 
 <section class="project">
 
@@ -50,7 +45,7 @@
                 Pour remédier à ce problème, une approche orientée objet s’impose, et c’est là qu’intervient le
                 composant <span class="bold">HttpFoundation</span>. Il va vous fournir toutes les classes nécessaires
                 pour gérer les échanges
-                entre client et serveur de manière fiable et sécurisée.
+                entre le client et le serveur de manière fiable et sécurisée.
             </p>
         </div>
 
