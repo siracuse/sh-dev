@@ -21,7 +21,7 @@ include('../components/navbar.php');
     <h1>Symfony : Le framework PHP incontournable en 2024</h1>
     <div class="project-details">
         <div>
-            <p class="project-details-title">Le 30/10/2024 </p>
+            <p class="project-details-title">Le 09/2024 </p>
         </div>
     </div>
 

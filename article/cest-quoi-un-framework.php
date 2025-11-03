@@ -21,7 +21,7 @@ include('../components/navbar.php');
     <h1>C’est quoi un framework ?</h1>
     <div class="project-details">
         <div>
-            <p class="project-details-title">Le 15/11/2024 </p>
+            <p class="project-details-title">Le 12/2024 </p>
         </div>
     </div>
 

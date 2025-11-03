@@ -18,7 +18,7 @@ include('components/navbar.php');
 
 <section class="homepage">
     <h1>Hari SIRACUSE <br> <span class="h1-index">Développeur Symfony</span></h1>
-    <p>Des projets Symfony qui parlent d'eux-mêmes - Avec plus de quatre ans d'expérience et une multitude de projets à
+    <p>Des projets Symfony qui parlent d'eux-mêmes - Avec plus de quatre ans d'expérience dans le web et une multitude de projets à
         mon actif, explorez mon portfolio afin de découvrir mes diverses réalisations.</p>
 </section>
 
@@ -50,6 +50,16 @@ include('components/navbar.php');
             <p>Stark Motors</p>
         </div>
     </div>
+
+    <div class="projects-unit" data-aos="zoom-in">
+        <a href="shchess">
+            <img width="374" height="374" src="assets/img/shchess.png" alt="miniature du projet shchess">
+        </a>
+        <div class="overlay">
+            <p>SH Chess</p>
+        </div>
+    </div>
+
 </section>
 
 
@@ -62,7 +72,7 @@ include('components/navbar.php');
                       alt="article de blog : Pourquoi choisir Symfony pour votre projet web"></div>
             <div>
                 <h2 class="blog-unit-title">C'est quoi un framework ?</h2>
-                <p class="blog-unit-date">15/11/2024</p>
+                <p class="blog-unit-date">12/2024</p>
                 <p class="blog-unit-description">Dans cet article, je vous explique ce qu'est un framework, ses avantages, ses inconvénients, son fonctionnement.</p>
             </div>
         </a>
@@ -72,7 +82,7 @@ include('components/navbar.php');
                       alt="article de blog : Pourquoi choisir Symfony pour votre projet web"></div>
             <div>
                 <h2 class="blog-unit-title">Les composants essentiels de Symfony</h2>
-                <p class="blog-unit-date">06/11/2024</p>
+                <p class="blog-unit-date">11/2024</p>
                 <p class="blog-unit-description">Découvrez dans cet article, les composants principaux de Symfony et
                     leurs rôles.</p>
             </div>

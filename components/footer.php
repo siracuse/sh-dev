@@ -10,7 +10,7 @@
 
         </div>
         <div class="footer-col">
-            <p class="color-grey">© 2024 Harichandra SIRACUSE</p>
+            <p class="color-grey">© 2025 Harichandra SIRACUSE</p>
         </div>
     </div>
 

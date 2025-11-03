@@ -414,7 +414,9 @@ footer img {
         padding: 0;
     }
 
-
+    .projects {
+        justify-content: flex-start;
+    }
     .aboutme, .footer-content, .homepage, .project, .projects {
         width: 1152px;
         margin: 0 auto;

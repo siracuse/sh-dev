@@ -25,12 +25,22 @@ include('components/navbar.php');
 <section class="blog">
     <div class="container blog-grid">
 
+        <a class="blog-unit" href="article/cest-quoi-accessibilite-web.php">
+            <div><img src="assets/img/blog/cest-quoi-l-accessibilite-web.jpg"
+                      alt="article de blog : Pourquoi choisir Symfony pour votre projet web"></div>
+            <div>
+                <h2 class="blog-unit-title">C'est quoi l'accessibilité web ?</h2>
+                <p class="blog-unit-date">11/2025</p>
+                <p class="blog-unit-description">Dans cet article, je vous explique ce qu'est l'accessibilité web, de son importance et quelques astuces pour l'améliorer.</p>
+            </div>
+        </a>
+
         <a class="blog-unit" href="article/cest-quoi-un-framework">
             <div><img src="assets/img/blog/explication-framework.jpg"
                       alt="article de blog : Pourquoi choisir Symfony pour votre projet web"></div>
             <div>
                 <h2 class="blog-unit-title">C'est quoi un framework ?</h2>
-                <p class="blog-unit-date">15/11/2024</p>
+                <p class="blog-unit-date">12/2024</p>
                 <p class="blog-unit-description">Dans cet article, je vous explique ce qu'est un framework, ses avantages, ses inconvénients, son fonctionnement.</p>
             </div>
         </a>
@@ -40,7 +50,7 @@ include('components/navbar.php');
                       alt="article de blog : Pourquoi choisir Symfony pour votre projet web"></div>
             <div>
                 <h2 class="blog-unit-title">Les composants essentiels de Symfony</h2>
-                <p class="blog-unit-date">06/11/2024</p>
+                <p class="blog-unit-date">11/2024</p>
                 <p class="blog-unit-description">Découvrez dans cet article, les composants principaux de Symfony et
                     leurs rôles.</p>
             </div>
@@ -51,7 +61,7 @@ include('components/navbar.php');
                       alt="article de blog : Pourquoi choisir Symfony pour votre projet web"></div>
             <div>
                 <h2 class="blog-unit-title">Pourquoi choisir Symfony pour votre projet web ?</h2>
-                <p class="blog-unit-date">30/10/2024</p>
+                <p class="blog-unit-date">10/2024</p>
                 <p class="blog-unit-description">Découvrez pourquoi Symfony est un choix judicieux pour vos projets web.
                     Dans cet article, j'explique les avantages de ce framework robuste et flexible.</p>
             </div>
@@ -61,7 +71,7 @@ include('components/navbar.php');
             <div><img src="assets/img/blog/cest-quoi-symfony.jpg" alt="article de blog : C'est quoi Symfony ?"></div>
             <div>
                 <h2 class="blog-unit-title">Symfony : C'est quoi Symfony ?</h2>
-                <p class="blog-unit-date">30/10/2024</p>
+                <p class="blog-unit-date">09/2024</p>
                 <p class="blog-unit-description">Dans cet article, je vous explique ce qu'est Symfony, son histoire et
                     la richesse de sa communauté.</p>
             </div>

@@ -19,3 +19,49 @@ body {
     src: url('montserrat.woff2') format('woff2');
     font-display: swap
 }
+
+
+/*Mise en forme balise html css*/
+pre {
+    border-radius: 5px;
+    background-color: #272822;
+    padding: 6px 10px;
+    color: #eee;
+    font-size: 1.1em;
+    white-space: break-spaces;
+}
+
+.red {
+    color: #F92672;
+}
+
+.green {
+    color: #A6E22E;
+}
+
+.orange {
+    color: #FD971F;
+}
+
+.gray {
+    color: #949078;
+}
+
+.yellow {
+    color: #FFD866;
+}
+
+.blue {
+    color: #78DCE8
+}
+
+.grey-ita {
+    color: grey;
+    font-style: italic;
+}
+.grey {
+    color: grey;
+}
+.purple {
+    color: #AE81FF;
+}

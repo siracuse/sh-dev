@@ -21,7 +21,7 @@ include('../components/navbar.php');
     <h1>Pourquoi choisir Symfony pour votre projet web</h1>
     <div class="project-details">
         <div>
-            <p class="project-details-title">Le 30/10/2024 </p>
+            <p class="project-details-title">Le 10/2024 </p>
         </div>
     </div>
 

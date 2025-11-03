@@ -21,7 +21,7 @@ include('../components/navbar.php');
     <h1>Les composants essentiels de Symfony</h1>
     <div class="project-details">
         <div>
-            <p class="project-details-title">Le 06/11/2024 </p>
+            <p class="project-details-title">Le 11/2024 </p>
         </div>
     </div>
 
