@@ -25,7 +25,7 @@ include('components/navbar.php');
 <section class="blog">
     <div class="container blog-grid">
 
-        <a class="blog-unit" href="article/cest-quoi-accessibilite-web.php">
+        <a class="blog-unit" href="article/cest-quoi-accessibilite-web">
             <div><img src="assets/img/blog/cest-quoi-l-accessibilite-web.jpg"
                       alt="article de blog : Pourquoi choisir Symfony pour votre projet web"></div>
             <div>
