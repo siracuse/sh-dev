@@ -10,7 +10,7 @@
 
         </div>
         <div class="footer-col">
-            <p class="color-grey">© <?php echo(date(y)) ?> Harichandra SIRACUSE</p>
+            <p class="color-grey">© 2026 Harichandra SIRACUSE</p>
         </div>
     </div>
 
