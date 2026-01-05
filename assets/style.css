@@ -228,6 +228,9 @@ nav li a {
 .project-description-content, .project-description-title {
     line-height: 1.5;
 }
+.project-image-center {
+    width: initial !important;
+}
 
 .project img {
     width: 100%
