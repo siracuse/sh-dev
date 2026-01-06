@@ -9,7 +9,7 @@ Ce site présente :
 - mes articles de blog
 
 ## 🌐 Démo
-🔗 Site en ligne : sh-dev.fr
+🔗 Site en ligne : [sh-dev.fr](https://sh-dev.fr)
 
 ## 🛠 Stack technique  
 - PHP
