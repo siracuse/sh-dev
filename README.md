@@ -8,7 +8,7 @@ Ce site présente :
 - mon parcours
 - mes articles de blog
 
-## 🌐 Démo
+## 🌐 Accès à mon portfolio
 🔗 Site en ligne : [sh-dev.fr](https://sh-dev.fr)
 
 ## 🛠 Stack technique  
