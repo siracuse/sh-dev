@@ -18,10 +18,10 @@ include('../components/navbar.php');
 
     <img class="project-img" src="../assets/img/blog/accessibilite-web.jpg"
          alt="Symfony : Le framework PHP incontournable en 2024">
-    <h1>Comprendre la structure d'un projet symfony</h1>
+    <h1>Structure d'un projet Symfony 7</h1>
     <div class="project-details">
         <div>
-            <p class="project-details-title">Le 11/2025</p>
+            <p class="project-details-title">Le 03/2026</p>
         </div>
     </div>
 
@@ -30,11 +30,11 @@ include('../components/navbar.php');
             <p class="project-description-title">Introduction</p>
             <div class="project-description-content flex-direction-column ">
                 <p class="mg-bottom-20">
-                    Dans cet article, nous allons découvrir la structure d'un projet Symfony et expliquer le role des principaux dossiers et fichier. Il s'agit d'une première approche, destinée aux débutants : nous ne rentrerons pas dans les détails techniques, mais l'objectif est de se repérer facilement dans l'architecture d'un projet Symfony 7.
+                    Dans cet article, nous allons découvrir la structure d'un projet Symfony 7 et expliquer le role des principaux dossiers et fichier. Il s'agit d'une première approche : nous ne rentrerons pas dans les détails techniques. L'objectif est de comprendre et de se repérer facilement dans l'architecture d'un projet Symfony.
                 </p>
                 <figure class="mg-bottom-20 text-align-center" data-aos="fade-up">
                     <img src="../assets/img/blog/structure-symfony-arborescence" alt="La boule noire - spectacle" class="project-image-center">
-                    <figcaption>Arborescence d'un projet symfony</figcaption>
+                    <figcaption>Arborescence d'un projet Symfony 7</figcaption>
                 </figure>    
             </div>
 
@@ -45,8 +45,18 @@ include('../components/navbar.php');
             <div class="project-description-content flex-direction-column ">
                 <ul class="list-style-type-disc">
                     <p class="mg-bottom-20">
-                        Le dossier <span class="monokai-pink">assets/</span> a pour rôle de gérer les ressources front-end comme les fichiers CSS et le javascript. AssetMapper est un composant de Symfony qui facilite la gestion de ces fichiers. En production, on exécute la commande <span class="code-primary">bin/console assets:install</span>. AssetMapper va alors copier les fichiers qui étaient présents dans <span class="monokai-pink">assets/</span> dans le dossier <span class="monokai-pink">public/assets/</span>, pour qu'ils soient accessibles par le navigateur.
+                        Le dossier <span class="monokai-pink">assets/</span> contient toutes  les ressources front-end de notre application, comme les fichiers CSS et Javascript. Ces fichiers, ainsi que le dossier lui-même, ne sont pas directement accessibles depuis le navigateur.   
+                    </p>
+                    <p>
+                        Pour faciliter la gestion de ces ressources, Symfony propose un composant appelé AssetMapper. Ce composant permet de rendre les fichiers du dossier <span class="monokai-pink">assets/</span> accessibles publiquement, tout en gérant leur versionnement.
                     </p>    
+                    <p class="mg-bottom-20">
+                        Concrètement, dans nos templates Twig, nous chargeons nos fichiers JavaScript grâce au bloc suivant :
+                    </p>
+                    <p>
+                        <pre><code>{{ importmap(<span class="yellow">'app'</span>) }}</code></pre>
+                    </p>
+                    <p class="mg-top-20">Cette instruction permet d'inclure automatiquement le fichier principal (généralement app.js) ainsi que toutes ses dépendances.</p>
                 </ul>
             </div>
         </div>
@@ -56,10 +66,10 @@ include('../components/navbar.php');
             <div class="project-description-content flex-direction-column ">
                 <ul class="list-style-type-disc">
                     <p class="mg-bottom-20">
-                        Le dossier <span class="monokai-pink">bin/</span> va contenir des scripts exécutables nécessaires pour effectuer des opérations dans notre projet.
+                        Le dossier <span class="monokai-pink">bin/</span> contient des scripts exécutables nécessaires pour effectuer des opérations dans notre projet.
                     </p>
                     <p class="mg-bottom-20">
-                        À l'intérieur, on retrouve le fichier <span class="monokai-pink">console</span>. Ce script nous donne accès à toutes les commandes internes et personnalisées de symfony. Avec elle nous pouvons générer des controleurs, des entités, des formulaires, bref, tout un tas de commande qui nous seront utiles pour notre projet.
+                        Par défaut, on a le fichier <span class="monokai-pink">console</span>. Ce script nous donne accès à toutes les commandes internes et personnalisées de Symfony. Avec ce script, on peut générer des contrôleurs, des entités, des formulaires, et bien d'autres éléments utiles pour le projet.
                     </p>  
                 </ul>
             </div>
@@ -70,13 +80,15 @@ include('../components/navbar.php');
             <p class="project-description-title">config/</p>
             <div class="project-description-content flex-direction-column ">
                 <p class="mg-bottom-20">
-                    Le dossier <span class="monokai-pink">config/</span> est un dossier contenant tout la configuration de notre projet symfony : composants, services, bundles, etc.
+                    Le dossier <span class="monokai-pink">config/</span> contient toute la configuration de notre projet Symfony : composants, services, bundles, etc.
                 </p>    
                 <ul class="list-style-type-disc">
+                    <li><span class="bold">packages/</span> : Ce dossier contient la configuration de chaque bundle déclaré dans bundles.php.
+                    </li>
                     <li><span class="bold">le fichier bundles.php</span> : Ce fichier déclare   tous les bundles activés de notre application.
                     </li>
-                    <li><span class="bold">le dossier packages/</span> : On retrouve la     configuration de chaque bundles déclarer dans le bundles.php
-                    </li>  
+                    <li><span class="bold">le fichier services.yaml</span> : Ce fichier permet de configurer les services de l'application. On peut y définir quelles classes sont considérées comme services, ainsi que certains paramètres globaux, par exemple.
+                    </li>    
                 </ul>
             </div>
         </div>
@@ -85,7 +97,10 @@ include('../components/navbar.php');
             <p class="project-description-title">migrations/</p>
             <div class="project-description-content flex-direction-column ">
                 <p class="mg-bottom-20">
-                    Le dossier <span class="monokai-pink">migrations/</span> est un dossier relative à Doctrine. C'est un dossier qui va contenir tous les fichiers de migration Doctrine. En gros, ces fichiers vont d'écrire les modifications successives (en SQL) que nous apportons à la base de données. On peut considéré ces fichiers, et donc ce dossier comme une mémoire de toutes les évolutions de notre base de données.
+                    Le dossier <span class="monokai-pink">migrations/</span> est un dossier relatif à Doctrine, composant de Symfony qui gère l'accès à la base de données. Ce dossier va contenir tous les fichiers de migration, qui décrivent les modifications successives apportées à la base de données en SQL. 
+                </p> 
+                <p>
+                    On peut considérer ces fichiers, et donc ce dossier, comme une mémoire de toutes les évolutions de notre base de données.
                 </p>    
             </div>
         </div>
